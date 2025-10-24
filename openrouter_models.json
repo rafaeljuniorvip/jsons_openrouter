@@ -1,0 +1,5530 @@
+[
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 32B Instructqwen/qwen3-vl-32b-instruct",
+    "url": "/qwen/qwen3-vl-32b-instruct",
+    "Input ($/1M tokens)": "$0,35",
+    "Output ($/1M tokens)": "$1,10",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 32B Instruct",
+    "model_id": "qwen/qwen3-vl-32b-instruct"
+  },
+  {
+    "Model Name & ID": "Andromeda Alphaopenrouter/andromeda-alpha",
+    "url": "/openrouter/andromeda-alpha",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "128.000",
+    "company": "Openrouter",
+    "model_name": "Andromeda Alpha",
+    "model_id": "openrouter/andromeda-alpha"
+  },
+  {
+    "Model Name & ID": "LiquidAI/LFM2-8B-A1Bliquid/lfm2-8b-a1b",
+    "url": "/liquid/lfm2-8b-a1b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "32.768",
+    "company": "Liquid",
+    "model_name": "LiquidAI/LFM2-8B-A1B",
+    "model_id": "liquid/lfm2-8b-a1b"
+  },
+  {
+    "Model Name & ID": "LiquidAI/LFM2-2.6Bliquid/lfm-2.2-6b",
+    "url": "/liquid/lfm-2.2-6b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "32.768",
+    "company": "Liquid",
+    "model_name": "LiquidAI/LFM2-2.6B",
+    "model_id": "liquid/lfm-2.2-6b"
+  },
+  {
+    "Model Name & ID": "IBM: Granite 4.0 Microibm-granite/granite-4.0-h-micro",
+    "url": "/ibm-granite/granite-4.0-h-micro",
+    "Input ($/1M tokens)": "$0,017",
+    "Output ($/1M tokens)": "$0,11",
+    "Context (tokens)": "131.000",
+    "company": "IBM",
+    "model_name": "Granite 4.0 Micro",
+    "model_id": "ibm-granite/granite-4.0-h-micro"
+  },
+  {
+    "Model Name & ID": "Deep Cogito: Cogito V2 Preview Llama 405Bdeepcogito/cogito-v2-preview-llama-405b",
+    "url": "/deepcogito/cogito-v2-preview-llama-405b",
+    "Input ($/1M tokens)": "$3,50",
+    "Output ($/1M tokens)": "$3,50",
+    "Context (tokens)": "32.768",
+    "company": "Deep Cogito",
+    "model_name": "Cogito V2 Preview Llama 405B",
+    "model_id": "deepcogito/cogito-v2-preview-llama-405b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Image Miniopenai/gpt-5-image-mini",
+    "url": "/openai/gpt-5-image-mini",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Image Mini",
+    "model_id": "openai/gpt-5-image-mini"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Haiku 4.5anthropic/claude-haiku-4.5",
+    "url": "/anthropic/claude-haiku-4.5",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude Haiku 4.5",
+    "model_id": "anthropic/claude-haiku-4.5"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 8B Thinkingqwen/qwen3-vl-8b-thinking",
+    "url": "/qwen/qwen3-vl-8b-thinking",
+    "Input ($/1M tokens)": "$0,18",
+    "Output ($/1M tokens)": "$2,10",
+    "Context (tokens)": "256.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 8B Thinking",
+    "model_id": "qwen/qwen3-vl-8b-thinking"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 8B Instructqwen/qwen3-vl-8b-instruct",
+    "url": "/qwen/qwen3-vl-8b-instruct",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,50",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 8B Instruct",
+    "model_id": "qwen/qwen3-vl-8b-instruct"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Imageopenai/gpt-5-image",
+    "url": "/openai/gpt-5-image",
+    "Input ($/1M tokens)": "$10",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Image",
+    "model_id": "openai/gpt-5-image"
+  },
+  {
+    "Model Name & ID": "inclusionAI: Ring 1Tinclusionai/ring-1t",
+    "url": "/inclusionai/ring-1t",
+    "Input ($/1M tokens)": "$0,57",
+    "Output ($/1M tokens)": "$2,28",
+    "Context (tokens)": "131.072",
+    "company": "inclusionAI",
+    "model_name": "Ring 1T",
+    "model_id": "inclusionai/ring-1t"
+  },
+  {
+    "Model Name & ID": "inclusionAI: Ling-1Tinclusionai/ling-1t",
+    "url": "/inclusionai/ling-1t",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "131.072",
+    "company": "inclusionAI",
+    "model_name": "Ling-1T",
+    "model_id": "inclusionai/ling-1t"
+  },
+  {
+    "Model Name & ID": "OpenAI: o3 Deep Researchopenai/o3-deep-research",
+    "url": "/openai/o3-deep-research",
+    "Input ($/1M tokens)": "$10",
+    "Output ($/1M tokens)": "$40",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o3 Deep Research",
+    "model_id": "openai/o3-deep-research"
+  },
+  {
+    "Model Name & ID": "OpenAI: o4 Mini Deep Researchopenai/o4-mini-deep-research",
+    "url": "/openai/o4-mini-deep-research",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o4 Mini Deep Research",
+    "model_id": "openai/o4-mini-deep-research"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "url": "/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Llama 3.3 Nemotron Super 49B V1.5",
+    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+  },
+  {
+    "Model Name & ID": "Baidu: ERNIE 4.5 21B A3B Thinkingbaidu/ernie-4.5-21b-a3b-thinking",
+    "url": "/baidu/ernie-4.5-21b-a3b-thinking",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,28",
+    "Context (tokens)": "131.072",
+    "company": "Baidu",
+    "model_name": "ERNIE 4.5 21B A3B Thinking",
+    "model_id": "baidu/ernie-4.5-21b-a3b-thinking"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Image (Nano Banana)google/gemini-2.5-flash-image",
+    "url": "/google/gemini-2.5-flash-image",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$2,50",
+    "Context (tokens)": "32.768",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Image (Nano Banana)",
+    "model_id": "google/gemini-2.5-flash-image"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 30B A3B Thinkingqwen/qwen3-vl-30b-a3b-thinking",
+    "url": "/qwen/qwen3-vl-30b-a3b-thinking",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 30B A3B Thinking",
+    "model_id": "qwen/qwen3-vl-30b-a3b-thinking"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 30B A3B Instructqwen/qwen3-vl-30b-a3b-instruct",
+    "url": "/qwen/qwen3-vl-30b-a3b-instruct",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,70",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 30B A3B Instruct",
+    "model_id": "qwen/qwen3-vl-30b-a3b-instruct"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Proopenai/gpt-5-pro",
+    "url": "/openai/gpt-5-pro",
+    "Input ($/1M tokens)": "$15",
+    "Output ($/1M tokens)": "$120",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Pro",
+    "model_id": "openai/gpt-5-pro"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.6z-ai/glm-4.6",
+    "url": "/z-ai/glm-4.6",
+    "Input ($/1M tokens)": "$0,50",
+    "Output ($/1M tokens)": "$1,75",
+    "Context (tokens)": "202.752",
+    "company": "Z.AI",
+    "model_name": "GLM 4.6",
+    "model_id": "z-ai/glm-4.6"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.6 (exacto)z-ai/glm-4.6:exacto",
+    "url": "/z-ai/glm-4.6:exacto",
+    "Input ($/1M tokens)": "$0,60",
+    "Output ($/1M tokens)": "$1,90",
+    "Context (tokens)": "202.752",
+    "company": "Z.AI",
+    "model_name": "GLM 4.6 (exacto)",
+    "model_id": "z-ai/glm-4.6:exacto"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Sonnet 4.5anthropic/claude-sonnet-4.5",
+    "url": "/anthropic/claude-sonnet-4.5",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "1.000.000",
+    "company": "Anthropic",
+    "model_name": "Claude Sonnet 4.5",
+    "model_id": "anthropic/claude-sonnet-4.5"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.2 Expdeepseek/deepseek-v3.2-exp",
+    "url": "/deepseek/deepseek-v3.2-exp",
+    "Input ($/1M tokens)": "$0,27",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.2 Exp",
+    "model_id": "deepseek/deepseek-v3.2-exp"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Cydonia 24B V4.1thedrummer/cydonia-24b-v4.1",
+    "url": "/thedrummer/cydonia-24b-v4.1",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,50",
+    "Context (tokens)": "131.072",
+    "company": "TheDrummer",
+    "model_name": "Cydonia 24B V4.1",
+    "model_id": "thedrummer/cydonia-24b-v4.1"
+  },
+  {
+    "Model Name & ID": "Relace: Relace Apply 3relace/relace-apply-3",
+    "url": "/relace/relace-apply-3",
+    "Input ($/1M tokens)": "$0,85",
+    "Output ($/1M tokens)": "$1,25",
+    "Context (tokens)": "256.000",
+    "company": "Relace",
+    "model_name": "Relace Apply 3",
+    "model_id": "relace/relace-apply-3"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Preview 09-2025google/gemini-2.5-flash-preview-09-2025",
+    "url": "/google/gemini-2.5-flash-preview-09-2025",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$2,50",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Preview 09-2025",
+    "model_id": "google/gemini-2.5-flash-preview-09-2025"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Lite Preview 09-2025google/gemini-2.5-flash-lite-preview-09-2025",
+    "url": "/google/gemini-2.5-flash-lite-preview-09-2025",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Lite Preview 09-2025",
+    "model_id": "google/gemini-2.5-flash-lite-preview-09-2025"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 235B A22B Thinkingqwen/qwen3-vl-235b-a22b-thinking",
+    "url": "/qwen/qwen3-vl-235b-a22b-thinking",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 235B A22B Thinking",
+    "model_id": "qwen/qwen3-vl-235b-a22b-thinking"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 VL 235B A22B Instructqwen/qwen3-vl-235b-a22b-instruct",
+    "url": "/qwen/qwen3-vl-235b-a22b-instruct",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 VL 235B A22B Instruct",
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Maxqwen/qwen3-max",
+    "url": "/qwen/qwen3-max",
+    "Input ($/1M tokens)": "$1,20",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "256.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 Max",
+    "model_id": "qwen/qwen3-max"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder Plusqwen/qwen3-coder-plus",
+    "url": "/qwen/qwen3-coder-plus",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "128.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder Plus",
+    "model_id": "qwen/qwen3-coder-plus"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Codexopenai/gpt-5-codex",
+    "url": "/openai/gpt-5-codex",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Codex",
+    "model_id": "openai/gpt-5-codex"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.1 Terminusdeepseek/deepseek-v3.1-terminus",
+    "url": "/deepseek/deepseek-v3.1-terminus",
+    "Input ($/1M tokens)": "$0,23",
+    "Output ($/1M tokens)": "$0,90",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.1 Terminus",
+    "model_id": "deepseek/deepseek-v3.1-terminus"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.1 Terminus (exacto)deepseek/deepseek-v3.1-terminus:exacto",
+    "url": "/deepseek/deepseek-v3.1-terminus:exacto",
+    "Input ($/1M tokens)": "$0,27",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.1 Terminus (exacto)",
+    "model_id": "deepseek/deepseek-v3.1-terminus:exacto"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 4 Fastx-ai/grok-4-fast",
+    "url": "/x-ai/grok-4-fast",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,50",
+    "Context (tokens)": "2.000.000",
+    "company": "xAI",
+    "model_name": "Grok 4 Fast",
+    "model_id": "x-ai/grok-4-fast"
+  },
+  {
+    "Model Name & ID": "Tongyi DeepResearch 30B A3B (free)alibaba/tongyi-deepresearch-30b-a3b:free",
+    "url": "/alibaba/tongyi-deepresearch-30b-a3b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Tongyi DeepResearch 30B A3B (free)alibaba/tongyi-deepresearch-30b-a3b",
+    "model_name": "free",
+    "model_id": "alibaba/tongyi-deepresearch-30b-a3b:free"
+  },
+  {
+    "Model Name & ID": "Tongyi DeepResearch 30B A3Balibaba/tongyi-deepresearch-30b-a3b",
+    "url": "/alibaba/tongyi-deepresearch-30b-a3b",
+    "Input ($/1M tokens)": "$0,09",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "131.072",
+    "company": "Alibaba",
+    "model_name": "Tongyi DeepResearch 30B A3B",
+    "model_id": "alibaba/tongyi-deepresearch-30b-a3b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder Flashqwen/qwen3-coder-flash",
+    "url": "/qwen/qwen3-coder-flash",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,50",
+    "Context (tokens)": "128.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder Flash",
+    "model_id": "qwen/qwen3-coder-flash"
+  },
+  {
+    "Model Name & ID": "Arcee AI: AFM 4.5Barcee-ai/afm-4.5b",
+    "url": "/arcee-ai/afm-4.5b",
+    "Input ($/1M tokens)": "$0,048",
+    "Output ($/1M tokens)": "$0,15",
+    "Context (tokens)": "65.536",
+    "company": "Arcee AI",
+    "model_name": "AFM 4.5B",
+    "model_id": "arcee-ai/afm-4.5b"
+  },
+  {
+    "Model Name & ID": "OpenGVLab: InternVL3 78Bopengvlab/internvl3-78b",
+    "url": "/opengvlab/internvl3-78b",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,26",
+    "Context (tokens)": "32.768",
+    "company": "OpenGVLab",
+    "model_name": "InternVL3 78B",
+    "model_id": "opengvlab/internvl3-78b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Next 80B A3B Thinkingqwen/qwen3-next-80b-a3b-thinking",
+    "url": "/qwen/qwen3-next-80b-a3b-thinking",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 Next 80B A3B Thinking",
+    "model_id": "qwen/qwen3-next-80b-a3b-thinking"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Next 80B A3B Instructqwen/qwen3-next-80b-a3b-instruct",
+    "url": "/qwen/qwen3-next-80b-a3b-instruct",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,80",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 Next 80B A3B Instruct",
+    "model_id": "qwen/qwen3-next-80b-a3b-instruct"
+  },
+  {
+    "Model Name & ID": "Meituan: LongCat Flash Chat (free)meituan/longcat-flash-chat:free",
+    "url": "/meituan/longcat-flash-chat:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Meituan",
+    "model_name": "LongCat Flash Chat (free)",
+    "model_id": "meituan/longcat-flash-chat:free"
+  },
+  {
+    "Model Name & ID": "Meituan: LongCat Flash Chatmeituan/longcat-flash-chat",
+    "url": "/meituan/longcat-flash-chat",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,75",
+    "Context (tokens)": "131.072",
+    "company": "Meituan",
+    "model_name": "LongCat Flash Chat",
+    "model_id": "meituan/longcat-flash-chat"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen Plus 0728qwen/qwen-plus-2025-07-28",
+    "url": "/qwen/qwen-plus-2025-07-28",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "1.000.000",
+    "company": "Qwen",
+    "model_name": "Qwen Plus 0728",
+    "model_id": "qwen/qwen-plus-2025-07-28"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen Plus 0728 (thinking)qwen/qwen-plus-2025-07-28:thinking",
+    "url": "/qwen/qwen-plus-2025-07-28:thinking",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$4",
+    "Context (tokens)": "1.000.000",
+    "company": "Qwen",
+    "model_name": "Qwen Plus 0728 (thinking)",
+    "model_id": "qwen/qwen-plus-2025-07-28:thinking"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Nemotron Nano 9B V2 (free)nvidia/nemotron-nano-9b-v2:free",
+    "url": "/nvidia/nemotron-nano-9b-v2:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "128.000",
+    "company": "NVIDIA",
+    "model_name": "Nemotron Nano 9B V2 (free)",
+    "model_id": "nvidia/nemotron-nano-9b-v2:free"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Nemotron Nano 9B V2nvidia/nemotron-nano-9b-v2",
+    "url": "/nvidia/nemotron-nano-9b-v2",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,16",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Nemotron Nano 9B V2",
+    "model_id": "nvidia/nemotron-nano-9b-v2"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi K2 0905moonshotai/kimi-k2-0905",
+    "url": "/moonshotai/kimi-k2-0905",
+    "Input ($/1M tokens)": "$0,39",
+    "Output ($/1M tokens)": "$1,90",
+    "Context (tokens)": "262.144",
+    "company": "MoonshotAI",
+    "model_name": "Kimi K2 0905",
+    "model_id": "moonshotai/kimi-k2-0905"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi K2 0905 (exacto)moonshotai/kimi-k2-0905:exacto",
+    "url": "/moonshotai/kimi-k2-0905:exacto",
+    "Input ($/1M tokens)": "$0,60",
+    "Output ($/1M tokens)": "$2,50",
+    "Context (tokens)": "262.144",
+    "company": "MoonshotAI",
+    "model_name": "Kimi K2 0905 (exacto)",
+    "model_id": "moonshotai/kimi-k2-0905:exacto"
+  },
+  {
+    "Model Name & ID": "Deep Cogito: Cogito V2 Preview Llama 70Bdeepcogito/cogito-v2-preview-llama-70b",
+    "url": "/deepcogito/cogito-v2-preview-llama-70b",
+    "Input ($/1M tokens)": "$0,88",
+    "Output ($/1M tokens)": "$0,88",
+    "Context (tokens)": "32.768",
+    "company": "Deep Cogito",
+    "model_name": "Cogito V2 Preview Llama 70B",
+    "model_id": "deepcogito/cogito-v2-preview-llama-70b"
+  },
+  {
+    "Model Name & ID": "Cogito V2 Preview Llama 109Bdeepcogito/cogito-v2-preview-llama-109b-moe",
+    "url": "/deepcogito/cogito-v2-preview-llama-109b-moe",
+    "Input ($/1M tokens)": "$0,18",
+    "Output ($/1M tokens)": "$0,59",
+    "Context (tokens)": "32.767",
+    "company": "Deepcogito",
+    "model_name": "Cogito V2 Preview Llama 109B",
+    "model_id": "deepcogito/cogito-v2-preview-llama-109b-moe"
+  },
+  {
+    "Model Name & ID": "Deep Cogito: Cogito V2 Preview Deepseek 671Bdeepcogito/cogito-v2-preview-deepseek-671b",
+    "url": "/deepcogito/cogito-v2-preview-deepseek-671b",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$1,25",
+    "Context (tokens)": "163.840",
+    "company": "Deep Cogito",
+    "model_name": "Cogito V2 Preview Deepseek 671B",
+    "model_id": "deepcogito/cogito-v2-preview-deepseek-671b"
+  },
+  {
+    "Model Name & ID": "StepFun: Step3stepfun-ai/step3",
+    "url": "/stepfun-ai/step3",
+    "Input ($/1M tokens)": "$0,57",
+    "Output ($/1M tokens)": "$1,42",
+    "Context (tokens)": "65.536",
+    "company": "StepFun",
+    "model_name": "Step3",
+    "model_id": "stepfun-ai/step3"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 30B A3B Thinking 2507qwen/qwen3-30b-a3b-thinking-2507",
+    "url": "/qwen/qwen3-30b-a3b-thinking-2507",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,29",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 30B A3B Thinking 2507",
+    "model_id": "qwen/qwen3-30b-a3b-thinking-2507"
+  },
+  {
+    "Model Name & ID": "xAI: Grok Code Fast 1x-ai/grok-code-fast-1",
+    "url": "/x-ai/grok-code-fast-1",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$1,50",
+    "Context (tokens)": "256.000",
+    "company": "xAI",
+    "model_name": "Grok Code Fast 1",
+    "model_id": "x-ai/grok-code-fast-1"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 4 70Bnousresearch/hermes-4-70b",
+    "url": "/nousresearch/hermes-4-70b",
+    "Input ($/1M tokens)": "$0,11",
+    "Output ($/1M tokens)": "$0,38",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "Hermes 4 70B",
+    "model_id": "nousresearch/hermes-4-70b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 4 405Bnousresearch/hermes-4-405b",
+    "url": "/nousresearch/hermes-4-405b",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "Hermes 4 405B",
+    "model_id": "nousresearch/hermes-4-405b"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Image Preview (Nano Banana)google/gemini-2.5-flash-image-preview",
+    "url": "/google/gemini-2.5-flash-image-preview",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$2,50",
+    "Context (tokens)": "32.768",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Image Preview (Nano Banana)",
+    "model_id": "google/gemini-2.5-flash-image-preview"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.1 (free)deepseek/deepseek-chat-v3.1:free",
+    "url": "/deepseek/deepseek-chat-v3.1:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.800",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.1 (free)",
+    "model_id": "deepseek/deepseek-chat-v3.1:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.1deepseek/deepseek-chat-v3.1",
+    "url": "/deepseek/deepseek-chat-v3.1",
+    "Input ($/1M tokens)": "$0,27",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.1",
+    "model_id": "deepseek/deepseek-chat-v3.1"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o Audioopenai/gpt-4o-audio-preview",
+    "url": "/openai/gpt-4o-audio-preview",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o Audio",
+    "model_id": "openai/gpt-4o-audio-preview"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Medium 3.1mistralai/mistral-medium-3.1",
+    "url": "/mistralai/mistral-medium-3.1",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Medium 3.1",
+    "model_id": "mistralai/mistral-medium-3.1"
+  },
+  {
+    "Model Name & ID": "Baidu: ERNIE 4.5 21B A3Bbaidu/ernie-4.5-21b-a3b",
+    "url": "/baidu/ernie-4.5-21b-a3b",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,28",
+    "Context (tokens)": "120.000",
+    "company": "Baidu",
+    "model_name": "ERNIE 4.5 21B A3B",
+    "model_id": "baidu/ernie-4.5-21b-a3b"
+  },
+  {
+    "Model Name & ID": "Baidu: ERNIE 4.5 VL 28B A3Bbaidu/ernie-4.5-vl-28b-a3b",
+    "url": "/baidu/ernie-4.5-vl-28b-a3b",
+    "Input ($/1M tokens)": "$0,14",
+    "Output ($/1M tokens)": "$0,56",
+    "Context (tokens)": "30.000",
+    "company": "Baidu",
+    "model_name": "ERNIE 4.5 VL 28B A3B",
+    "model_id": "baidu/ernie-4.5-vl-28b-a3b"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.5Vz-ai/glm-4.5v",
+    "url": "/z-ai/glm-4.5v",
+    "Input ($/1M tokens)": "$0,60",
+    "Output ($/1M tokens)": "$1,80",
+    "Context (tokens)": "65.536",
+    "company": "Z.AI",
+    "model_name": "GLM 4.5V",
+    "model_id": "z-ai/glm-4.5v"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba Mini 1.7ai21/jamba-mini-1.7",
+    "url": "/ai21/jamba-mini-1.7",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba Mini 1.7",
+    "model_id": "ai21/jamba-mini-1.7"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba Large 1.7ai21/jamba-large-1.7",
+    "url": "/ai21/jamba-large-1.7",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba Large 1.7",
+    "model_id": "ai21/jamba-large-1.7"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Chatopenai/gpt-5-chat",
+    "url": "/openai/gpt-5-chat",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Chat",
+    "model_id": "openai/gpt-5-chat"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5openai/gpt-5",
+    "url": "/openai/gpt-5",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5",
+    "model_id": "openai/gpt-5"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Miniopenai/gpt-5-mini",
+    "url": "/openai/gpt-5-mini",
+    "Input ($/1M tokens)": "$0,25",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Mini",
+    "model_id": "openai/gpt-5-mini"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-5 Nanoopenai/gpt-5-nano",
+    "url": "/openai/gpt-5-nano",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "400.000",
+    "company": "OpenAI",
+    "model_name": "GPT-5 Nano",
+    "model_id": "openai/gpt-5-nano"
+  },
+  {
+    "Model Name & ID": "OpenAI: gpt-oss-120bopenai/gpt-oss-120b",
+    "url": "/openai/gpt-oss-120b",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "131.072",
+    "company": "OpenAI",
+    "model_name": "gpt-oss-120b",
+    "model_id": "openai/gpt-oss-120b"
+  },
+  {
+    "Model Name & ID": "OpenAI: gpt-oss-120b (exacto)openai/gpt-oss-120b:exacto",
+    "url": "/openai/gpt-oss-120b:exacto",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,24",
+    "Context (tokens)": "131.072",
+    "company": "OpenAI",
+    "model_name": "gpt-oss-120b (exacto)",
+    "model_id": "openai/gpt-oss-120b:exacto"
+  },
+  {
+    "Model Name & ID": "OpenAI: gpt-oss-20b (free)openai/gpt-oss-20b:free",
+    "url": "/openai/gpt-oss-20b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "OpenAI",
+    "model_name": "gpt-oss-20b (free)",
+    "model_id": "openai/gpt-oss-20b:free"
+  },
+  {
+    "Model Name & ID": "OpenAI: gpt-oss-20bopenai/gpt-oss-20b",
+    "url": "/openai/gpt-oss-20b",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,14",
+    "Context (tokens)": "131.072",
+    "company": "OpenAI",
+    "model_name": "gpt-oss-20b",
+    "model_id": "openai/gpt-oss-20b"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Opus 4.1anthropic/claude-opus-4.1",
+    "url": "/anthropic/claude-opus-4.1",
+    "Input ($/1M tokens)": "$15",
+    "Output ($/1M tokens)": "$75",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude Opus 4.1",
+    "model_id": "anthropic/claude-opus-4.1"
+  },
+  {
+    "Model Name & ID": "Mistral: Codestral 2508mistralai/codestral-2508",
+    "url": "/mistralai/codestral-2508",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,90",
+    "Context (tokens)": "256.000",
+    "company": "Mistral",
+    "model_name": "Codestral 2508",
+    "model_id": "mistralai/codestral-2508"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder 30B A3B Instructqwen/qwen3-coder-30b-a3b-instruct",
+    "url": "/qwen/qwen3-coder-30b-a3b-instruct",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,25",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder 30B A3B Instruct",
+    "model_id": "qwen/qwen3-coder-30b-a3b-instruct"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 30B A3B Instruct 2507qwen/qwen3-30b-a3b-instruct-2507",
+    "url": "/qwen/qwen3-30b-a3b-instruct-2507",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,33",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 30B A3B Instruct 2507",
+    "model_id": "qwen/qwen3-30b-a3b-instruct-2507"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.5z-ai/glm-4.5",
+    "url": "/z-ai/glm-4.5",
+    "Input ($/1M tokens)": "$0,35",
+    "Output ($/1M tokens)": "$1,55",
+    "Context (tokens)": "131.072",
+    "company": "Z.AI",
+    "model_name": "GLM 4.5",
+    "model_id": "z-ai/glm-4.5"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.5 Air (free)z-ai/glm-4.5-air:free",
+    "url": "/z-ai/glm-4.5-air:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Z.AI",
+    "model_name": "GLM 4.5 Air (free)",
+    "model_id": "z-ai/glm-4.5-air:free"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4.5 Airz-ai/glm-4.5-air",
+    "url": "/z-ai/glm-4.5-air",
+    "Input ($/1M tokens)": "$0,13",
+    "Output ($/1M tokens)": "$0,85",
+    "Context (tokens)": "131.072",
+    "company": "Z.AI",
+    "model_name": "GLM 4.5 Air",
+    "model_id": "z-ai/glm-4.5-air"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 235B A22B Thinking 2507qwen/qwen3-235b-a22b-thinking-2507",
+    "url": "/qwen/qwen3-235b-a22b-thinking-2507",
+    "Input ($/1M tokens)": "$0,11",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 235B A22B Thinking 2507",
+    "model_id": "qwen/qwen3-235b-a22b-thinking-2507"
+  },
+  {
+    "Model Name & ID": "Z.AI: GLM 4 32Bz-ai/glm-4-32b",
+    "url": "/z-ai/glm-4-32b",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "128.000",
+    "company": "Z.AI",
+    "model_name": "GLM 4 32B",
+    "model_id": "z-ai/glm-4-32b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder 480B A35B (free)qwen/qwen3-coder:free",
+    "url": "/qwen/qwen3-coder:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "262.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder 480B A35B (free)",
+    "model_id": "qwen/qwen3-coder:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder 480B A35Bqwen/qwen3-coder",
+    "url": "/qwen/qwen3-coder",
+    "Input ($/1M tokens)": "$0,22",
+    "Output ($/1M tokens)": "$0,95",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder 480B A35B",
+    "model_id": "qwen/qwen3-coder"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 Coder 480B A35B (exacto)qwen/qwen3-coder:exacto",
+    "url": "/qwen/qwen3-coder:exacto",
+    "Input ($/1M tokens)": "$0,38",
+    "Output ($/1M tokens)": "$1,53",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 Coder 480B A35B (exacto)",
+    "model_id": "qwen/qwen3-coder:exacto"
+  },
+  {
+    "Model Name & ID": "ByteDance: UI-TARS 7Bbytedance/ui-tars-1.5-7b",
+    "url": "/bytedance/ui-tars-1.5-7b",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "128.000",
+    "company": "ByteDance",
+    "model_name": "UI-TARS 7B",
+    "model_id": "bytedance/ui-tars-1.5-7b"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Litegoogle/gemini-2.5-flash-lite",
+    "url": "/google/gemini-2.5-flash-lite",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Lite",
+    "model_id": "google/gemini-2.5-flash-lite"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 235B A22B Instruct 2507qwen/qwen3-235b-a22b-2507",
+    "url": "/qwen/qwen3-235b-a22b-2507",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,55",
+    "Context (tokens)": "262.144",
+    "company": "Qwen",
+    "model_name": "Qwen3 235B A22B Instruct 2507",
+    "model_id": "qwen/qwen3-235b-a22b-2507"
+  },
+  {
+    "Model Name & ID": "Switchpoint Routerswitchpoint/router",
+    "url": "/switchpoint/router",
+    "Input ($/1M tokens)": "$0,85",
+    "Output ($/1M tokens)": "$3,40",
+    "Context (tokens)": "131.072",
+    "company": "Switchpoint",
+    "model_name": "Switchpoint Router",
+    "model_id": "switchpoint/router"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi K2 0711 (free)moonshotai/kimi-k2:free",
+    "url": "/moonshotai/kimi-k2:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "MoonshotAI",
+    "model_name": "Kimi K2 0711 (free)",
+    "model_id": "moonshotai/kimi-k2:free"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi K2 0711moonshotai/kimi-k2",
+    "url": "/moonshotai/kimi-k2",
+    "Input ($/1M tokens)": "$0,14",
+    "Output ($/1M tokens)": "$2,49",
+    "Context (tokens)": "63.000",
+    "company": "MoonshotAI",
+    "model_name": "Kimi K2 0711",
+    "model_id": "moonshotai/kimi-k2"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM 4.1V 9B Thinkingthudm/glm-4.1v-9b-thinking",
+    "url": "/thudm/glm-4.1v-9b-thinking",
+    "Input ($/1M tokens)": "$0,035",
+    "Output ($/1M tokens)": "$0,138",
+    "Context (tokens)": "65.536",
+    "company": "THUDM",
+    "model_name": "GLM 4.1V 9B Thinking",
+    "model_id": "thudm/glm-4.1v-9b-thinking"
+  },
+  {
+    "Model Name & ID": "Mistral: Devstral Mediummistralai/devstral-medium",
+    "url": "/mistralai/devstral-medium",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Devstral Medium",
+    "model_id": "mistralai/devstral-medium"
+  },
+  {
+    "Model Name & ID": "Mistral: Devstral Small 1.1mistralai/devstral-small",
+    "url": "/mistralai/devstral-small",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,28",
+    "Context (tokens)": "128.000",
+    "company": "Mistral",
+    "model_name": "Devstral Small 1.1",
+    "model_id": "mistralai/devstral-small"
+  },
+  {
+    "Model Name & ID": "Venice: Uncensored (free)cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "url": "/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Venice",
+    "model_name": "Uncensored (free)",
+    "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 4x-ai/grok-4",
+    "url": "/x-ai/grok-4",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "256.000",
+    "company": "xAI",
+    "model_name": "Grok 4",
+    "model_id": "x-ai/grok-4"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3n 2B (free)google/gemma-3n-e2b-it:free",
+    "url": "/google/gemma-3n-e2b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 3n 2B (free)",
+    "model_id": "google/gemma-3n-e2b-it:free"
+  },
+  {
+    "Model Name & ID": "Tencent: Hunyuan A13B Instruct (free)tencent/hunyuan-a13b-instruct:free",
+    "url": "/tencent/hunyuan-a13b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Tencent",
+    "model_name": "Hunyuan A13B Instruct (free)",
+    "model_id": "tencent/hunyuan-a13b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Tencent: Hunyuan A13B Instructtencent/hunyuan-a13b-instruct",
+    "url": "/tencent/hunyuan-a13b-instruct",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,03",
+    "Context (tokens)": "32.768",
+    "company": "Tencent",
+    "model_name": "Hunyuan A13B Instruct",
+    "model_id": "tencent/hunyuan-a13b-instruct"
+  },
+  {
+    "Model Name & ID": "TNG: DeepSeek R1T2 Chimera (free)tngtech/deepseek-r1t2-chimera:free",
+    "url": "/tngtech/deepseek-r1t2-chimera:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "TNG",
+    "model_name": "DeepSeek R1T2 Chimera (free)",
+    "model_id": "tngtech/deepseek-r1t2-chimera:free"
+  },
+  {
+    "Model Name & ID": "TNG: DeepSeek R1T2 Chimeratngtech/deepseek-r1t2-chimera",
+    "url": "/tngtech/deepseek-r1t2-chimera",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "163.840",
+    "company": "TNG",
+    "model_name": "DeepSeek R1T2 Chimera",
+    "model_id": "tngtech/deepseek-r1t2-chimera"
+  },
+  {
+    "Model Name & ID": "Morph: Morph V3 Largemorph/morph-v3-large",
+    "url": "/morph/morph-v3-large",
+    "Input ($/1M tokens)": "$0,90",
+    "Output ($/1M tokens)": "$1,90",
+    "Context (tokens)": "81.920",
+    "company": "Morph",
+    "model_name": "Morph V3 Large",
+    "model_id": "morph/morph-v3-large"
+  },
+  {
+    "Model Name & ID": "Morph: Morph V3 Fastmorph/morph-v3-fast",
+    "url": "/morph/morph-v3-fast",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "81.920",
+    "company": "Morph",
+    "model_name": "Morph V3 Fast",
+    "model_id": "morph/morph-v3-fast"
+  },
+  {
+    "Model Name & ID": "Baidu: ERNIE 4.5 VL 424B A47Bbaidu/ernie-4.5-vl-424b-a47b",
+    "url": "/baidu/ernie-4.5-vl-424b-a47b",
+    "Input ($/1M tokens)": "$0,42",
+    "Output ($/1M tokens)": "$1,25",
+    "Context (tokens)": "123.000",
+    "company": "Baidu",
+    "model_name": "ERNIE 4.5 VL 424B A47B",
+    "model_id": "baidu/ernie-4.5-vl-424b-a47b"
+  },
+  {
+    "Model Name & ID": "Baidu: ERNIE 4.5 300B A47Bbaidu/ernie-4.5-300b-a47b",
+    "url": "/baidu/ernie-4.5-300b-a47b",
+    "Input ($/1M tokens)": "$0,28",
+    "Output ($/1M tokens)": "$1,10",
+    "Context (tokens)": "123.000",
+    "company": "Baidu",
+    "model_name": "ERNIE 4.5 300B A47B",
+    "model_id": "baidu/ernie-4.5-300b-a47b"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Anubis 70B V1.1thedrummer/anubis-70b-v1.1",
+    "url": "/thedrummer/anubis-70b-v1.1",
+    "Input ($/1M tokens)": "$0,65",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "131.072",
+    "company": "TheDrummer",
+    "model_name": "Anubis 70B V1.1",
+    "model_id": "thedrummer/anubis-70b-v1.1"
+  },
+  {
+    "Model Name & ID": "Inception: Mercuryinception/mercury",
+    "url": "/inception/mercury",
+    "Input ($/1M tokens)": "$0,25",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "128.000",
+    "company": "Inception",
+    "model_name": "Mercury",
+    "model_id": "inception/mercury"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3.2 24B (free)mistralai/mistral-small-3.2-24b-instruct:free",
+    "url": "/mistralai/mistral-small-3.2-24b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3.2 24B (free)",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3.2 24Bmistralai/mistral-small-3.2-24b-instruct",
+    "url": "/mistralai/mistral-small-3.2-24b-instruct",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,18",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3.2 24B",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct"
+  },
+  {
+    "Model Name & ID": "MiniMax: MiniMax M1minimax/minimax-m1",
+    "url": "/minimax/minimax-m1",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2,20",
+    "Context (tokens)": "1.000.000",
+    "company": "MiniMax",
+    "model_name": "MiniMax M1",
+    "model_id": "minimax/minimax-m1"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Lite Preview 06-17google/gemini-2.5-flash-lite-preview-06-17",
+    "url": "/google/gemini-2.5-flash-lite-preview-06-17",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Lite Preview 06-17",
+    "model_id": "google/gemini-2.5-flash-lite-preview-06-17"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flashgoogle/gemini-2.5-flash",
+    "url": "/google/gemini-2.5-flash",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$2,50",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash",
+    "model_id": "google/gemini-2.5-flash"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Progoogle/gemini-2.5-pro",
+    "url": "/google/gemini-2.5-pro",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Pro",
+    "model_id": "google/gemini-2.5-pro"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi Dev 72B (free)moonshotai/kimi-dev-72b:free",
+    "url": "/moonshotai/kimi-dev-72b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "MoonshotAI",
+    "model_name": "Kimi Dev 72B (free)",
+    "model_id": "moonshotai/kimi-dev-72b:free"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi Dev 72Bmoonshotai/kimi-dev-72b",
+    "url": "/moonshotai/kimi-dev-72b",
+    "Input ($/1M tokens)": "$0,29",
+    "Output ($/1M tokens)": "$1,15",
+    "Context (tokens)": "131.072",
+    "company": "MoonshotAI",
+    "model_name": "Kimi Dev 72B",
+    "model_id": "moonshotai/kimi-dev-72b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o3 Proopenai/o3-pro",
+    "url": "/openai/o3-pro",
+    "Input ($/1M tokens)": "$20",
+    "Output ($/1M tokens)": "$80",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o3 Pro",
+    "model_id": "openai/o3-pro"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 3 Minix-ai/grok-3-mini",
+    "url": "/x-ai/grok-3-mini",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,50",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok 3 Mini",
+    "model_id": "x-ai/grok-3-mini"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 3x-ai/grok-3",
+    "url": "/x-ai/grok-3",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok 3",
+    "model_id": "x-ai/grok-3"
+  },
+  {
+    "Model Name & ID": "Mistral: Magistral Small 2506mistralai/magistral-small-2506",
+    "url": "/mistralai/magistral-small-2506",
+    "Input ($/1M tokens)": "$0,50",
+    "Output ($/1M tokens)": "$1,50",
+    "Context (tokens)": "40.000",
+    "company": "Mistral",
+    "model_name": "Magistral Small 2506",
+    "model_id": "mistralai/magistral-small-2506"
+  },
+  {
+    "Model Name & ID": "Mistral: Magistral Medium 2506 (thinking)mistralai/magistral-medium-2506:thinking",
+    "url": "/mistralai/magistral-medium-2506:thinking",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "40.960",
+    "company": "Mistral",
+    "model_name": "Magistral Medium 2506 (thinking)",
+    "model_id": "mistralai/magistral-medium-2506:thinking"
+  },
+  {
+    "Model Name & ID": "Mistral: Magistral Medium 2506mistralai/magistral-medium-2506",
+    "url": "/mistralai/magistral-medium-2506",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "40.960",
+    "company": "Mistral",
+    "model_name": "Magistral Medium 2506",
+    "model_id": "mistralai/magistral-medium-2506"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Pro Preview 06-05google/gemini-2.5-pro-preview",
+    "url": "/google/gemini-2.5-pro-preview",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Pro Preview 06-05",
+    "model_id": "google/gemini-2.5-pro-preview"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek R1 0528 Qwen3 8B (free)deepseek/deepseek-r1-0528-qwen3-8b:free",
+    "url": "/deepseek/deepseek-r1-0528-qwen3-8b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek R1 0528 Qwen3 8B (free)",
+    "model_id": "deepseek/deepseek-r1-0528-qwen3-8b:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek R1 0528 Qwen3 8Bdeepseek/deepseek-r1-0528-qwen3-8b",
+    "url": "/deepseek/deepseek-r1-0528-qwen3-8b",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,11",
+    "Context (tokens)": "32.768",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek R1 0528 Qwen3 8B",
+    "model_id": "deepseek/deepseek-r1-0528-qwen3-8b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 0528 (free)deepseek/deepseek-r1-0528:free",
+    "url": "/deepseek/deepseek-r1-0528:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "R1 0528 (free)",
+    "model_id": "deepseek/deepseek-r1-0528:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 0528deepseek/deepseek-r1-0528",
+    "url": "/deepseek/deepseek-r1-0528",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$1,75",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "R1 0528",
+    "model_id": "deepseek/deepseek-r1-0528"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Opus 4anthropic/claude-opus-4",
+    "url": "/anthropic/claude-opus-4",
+    "Input ($/1M tokens)": "$15",
+    "Output ($/1M tokens)": "$75",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude Opus 4",
+    "model_id": "anthropic/claude-opus-4"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Sonnet 4anthropic/claude-sonnet-4",
+    "url": "/anthropic/claude-sonnet-4",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "1.000.000",
+    "company": "Anthropic",
+    "model_name": "Claude Sonnet 4",
+    "model_id": "anthropic/claude-sonnet-4"
+  },
+  {
+    "Model Name & ID": "Mistral: Devstral Small 2505 (free)mistralai/devstral-small-2505:free",
+    "url": "/mistralai/devstral-small-2505:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Devstral Small 2505 (free)",
+    "model_id": "mistralai/devstral-small-2505:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Devstral Small 2505mistralai/devstral-small-2505",
+    "url": "/mistralai/devstral-small-2505",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Devstral Small 2505",
+    "model_id": "mistralai/devstral-small-2505"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3n 4B (free)google/gemma-3n-e4b-it:free",
+    "url": "/google/gemma-3n-e4b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 3n 4B (free)",
+    "model_id": "google/gemma-3n-e4b-it:free"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3n 4Bgoogle/gemma-3n-e4b-it",
+    "url": "/google/gemma-3n-e4b-it",
+    "Input ($/1M tokens)": "$0,02",
+    "Output ($/1M tokens)": "$0,04",
+    "Context (tokens)": "32.768",
+    "company": "Google",
+    "model_name": "Gemma 3n 4B",
+    "model_id": "google/gemma-3n-e4b-it"
+  },
+  {
+    "Model Name & ID": "OpenAI: Codex Miniopenai/codex-mini",
+    "url": "/openai/codex-mini",
+    "Input ($/1M tokens)": "$1,50",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "Codex Mini",
+    "model_id": "openai/codex-mini"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.3 8B Instruct (free)meta-llama/llama-3.3-8b-instruct:free",
+    "url": "/meta-llama/llama-3.3-8b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "128.000",
+    "company": "Meta",
+    "model_name": "Llama 3.3 8B Instruct (free)",
+    "model_id": "meta-llama/llama-3.3-8b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Nous: DeepHermes 3 Mistral 24B Previewnousresearch/deephermes-3-mistral-24b-preview",
+    "url": "/nousresearch/deephermes-3-mistral-24b-preview",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,59",
+    "Context (tokens)": "32.768",
+    "company": "Nous",
+    "model_name": "DeepHermes 3 Mistral 24B Preview",
+    "model_id": "nousresearch/deephermes-3-mistral-24b-preview"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Medium 3mistralai/mistral-medium-3",
+    "url": "/mistralai/mistral-medium-3",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Medium 3",
+    "model_id": "mistralai/mistral-medium-3"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Pro Preview 05-06google/gemini-2.5-pro-preview-05-06",
+    "url": "/google/gemini-2.5-pro-preview-05-06",
+    "Input ($/1M tokens)": "$1,25",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Pro Preview 05-06",
+    "model_id": "google/gemini-2.5-pro-preview-05-06"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Spotlightarcee-ai/spotlight",
+    "url": "/arcee-ai/spotlight",
+    "Input ($/1M tokens)": "$0,18",
+    "Output ($/1M tokens)": "$0,18",
+    "Context (tokens)": "131.072",
+    "company": "Arcee AI",
+    "model_name": "Spotlight",
+    "model_id": "arcee-ai/spotlight"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Maestro Reasoningarcee-ai/maestro-reasoning",
+    "url": "/arcee-ai/maestro-reasoning",
+    "Input ($/1M tokens)": "$0,90",
+    "Output ($/1M tokens)": "$3,30",
+    "Context (tokens)": "131.072",
+    "company": "Arcee AI",
+    "model_name": "Maestro Reasoning",
+    "model_id": "arcee-ai/maestro-reasoning"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Virtuoso Largearcee-ai/virtuoso-large",
+    "url": "/arcee-ai/virtuoso-large",
+    "Input ($/1M tokens)": "$0,75",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "131.072",
+    "company": "Arcee AI",
+    "model_name": "Virtuoso Large",
+    "model_id": "arcee-ai/virtuoso-large"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Coder Largearcee-ai/coder-large",
+    "url": "/arcee-ai/coder-large",
+    "Input ($/1M tokens)": "$0,50",
+    "Output ($/1M tokens)": "$0,80",
+    "Context (tokens)": "32.768",
+    "company": "Arcee AI",
+    "model_name": "Coder Large",
+    "model_id": "arcee-ai/coder-large"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi 4 Reasoning Plusmicrosoft/phi-4-reasoning-plus",
+    "url": "/microsoft/phi-4-reasoning-plus",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,35",
+    "Context (tokens)": "32.768",
+    "company": "Microsoft",
+    "model_name": "Phi 4 Reasoning Plus",
+    "model_id": "microsoft/phi-4-reasoning-plus"
+  },
+  {
+    "Model Name & ID": "Inception: Mercury Coderinception/mercury-coder",
+    "url": "/inception/mercury-coder",
+    "Input ($/1M tokens)": "$0,25",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "128.000",
+    "company": "Inception",
+    "model_name": "Mercury Coder",
+    "model_id": "inception/mercury-coder"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 4B (free)qwen/qwen3-4b:free",
+    "url": "/qwen/qwen3-4b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 4B (free)",
+    "model_id": "qwen/qwen3-4b:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek Prover V2deepseek/deepseek-prover-v2",
+    "url": "/deepseek/deepseek-prover-v2",
+    "Input ($/1M tokens)": "$0,50",
+    "Output ($/1M tokens)": "$2,18",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek Prover V2",
+    "model_id": "deepseek/deepseek-prover-v2"
+  },
+  {
+    "Model Name & ID": "Meta: Llama Guard 4 12Bmeta-llama/llama-guard-4-12b",
+    "url": "/meta-llama/llama-guard-4-12b",
+    "Input ($/1M tokens)": "$0,18",
+    "Output ($/1M tokens)": "$0,18",
+    "Context (tokens)": "163.840",
+    "company": "Meta",
+    "model_name": "Llama Guard 4 12B",
+    "model_id": "meta-llama/llama-guard-4-12b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 30B A3B (free)qwen/qwen3-30b-a3b:free",
+    "url": "/qwen/qwen3-30b-a3b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 30B A3B (free)",
+    "model_id": "qwen/qwen3-30b-a3b:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 30B A3Bqwen/qwen3-30b-a3b",
+    "url": "/qwen/qwen3-30b-a3b",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 30B A3B",
+    "model_id": "qwen/qwen3-30b-a3b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 8B (free)qwen/qwen3-8b:free",
+    "url": "/qwen/qwen3-8b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 8B (free)",
+    "model_id": "qwen/qwen3-8b:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 8Bqwen/qwen3-8b",
+    "url": "/qwen/qwen3-8b",
+    "Input ($/1M tokens)": "$0,035",
+    "Output ($/1M tokens)": "$0,138",
+    "Context (tokens)": "128.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 8B",
+    "model_id": "qwen/qwen3-8b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 14B (free)qwen/qwen3-14b:free",
+    "url": "/qwen/qwen3-14b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 14B (free)",
+    "model_id": "qwen/qwen3-14b:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 14Bqwen/qwen3-14b",
+    "url": "/qwen/qwen3-14b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 14B",
+    "model_id": "qwen/qwen3-14b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 32Bqwen/qwen3-32b",
+    "url": "/qwen/qwen3-32b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 32B",
+    "model_id": "qwen/qwen3-32b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 235B A22B (free)qwen/qwen3-235b-a22b:free",
+    "url": "/qwen/qwen3-235b-a22b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 235B A22B (free)",
+    "model_id": "qwen/qwen3-235b-a22b:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 235B A22Bqwen/qwen3-235b-a22b",
+    "url": "/qwen/qwen3-235b-a22b",
+    "Input ($/1M tokens)": "$0,18",
+    "Output ($/1M tokens)": "$0,54",
+    "Context (tokens)": "40.960",
+    "company": "Qwen",
+    "model_name": "Qwen3 235B A22B",
+    "model_id": "qwen/qwen3-235b-a22b"
+  },
+  {
+    "Model Name & ID": "TNG: DeepSeek R1T Chimera (free)tngtech/deepseek-r1t-chimera:free",
+    "url": "/tngtech/deepseek-r1t-chimera:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "TNG",
+    "model_name": "DeepSeek R1T Chimera (free)",
+    "model_id": "tngtech/deepseek-r1t-chimera:free"
+  },
+  {
+    "Model Name & ID": "TNG: DeepSeek R1T Chimeratngtech/deepseek-r1t-chimera",
+    "url": "/tngtech/deepseek-r1t-chimera",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "163.840",
+    "company": "TNG",
+    "model_name": "DeepSeek R1T Chimera",
+    "model_id": "tngtech/deepseek-r1t-chimera"
+  },
+  {
+    "Model Name & ID": "Microsoft: MAI DS R1 (free)microsoft/mai-ds-r1:free",
+    "url": "/microsoft/mai-ds-r1:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "Microsoft",
+    "model_name": "MAI DS R1 (free)",
+    "model_id": "microsoft/mai-ds-r1:free"
+  },
+  {
+    "Model Name & ID": "Microsoft: MAI DS R1microsoft/mai-ds-r1",
+    "url": "/microsoft/mai-ds-r1",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "163.840",
+    "company": "Microsoft",
+    "model_name": "MAI DS R1",
+    "model_id": "microsoft/mai-ds-r1"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM Z1 32Bthudm/glm-z1-32b",
+    "url": "/thudm/glm-z1-32b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "32.768",
+    "company": "THUDM",
+    "model_name": "GLM Z1 32B",
+    "model_id": "thudm/glm-z1-32b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o4 Mini Highopenai/o4-mini-high",
+    "url": "/openai/o4-mini-high",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o4 Mini High",
+    "model_id": "openai/o4-mini-high"
+  },
+  {
+    "Model Name & ID": "OpenAI: o3openai/o3",
+    "url": "/openai/o3",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o3",
+    "model_id": "openai/o3"
+  },
+  {
+    "Model Name & ID": "OpenAI: o4 Miniopenai/o4-mini",
+    "url": "/openai/o4-mini",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o4 Mini",
+    "model_id": "openai/o4-mini"
+  },
+  {
+    "Model Name & ID": "Shisa AI: Shisa V2 Llama 3.3 70B  (free)shisa-ai/shisa-v2-llama3.3-70b:free",
+    "url": "/shisa-ai/shisa-v2-llama3.3-70b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Shisa AI",
+    "model_name": "Shisa V2 Llama 3.3 70B  (free)",
+    "model_id": "shisa-ai/shisa-v2-llama3.3-70b:free"
+  },
+  {
+    "Model Name & ID": "Shisa AI: Shisa V2 Llama 3.3 70Bshisa-ai/shisa-v2-llama3.3-70b",
+    "url": "/shisa-ai/shisa-v2-llama3.3-70b",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "32.768",
+    "company": "Shisa AI",
+    "model_name": "Shisa V2 Llama 3.3 70B",
+    "model_id": "shisa-ai/shisa-v2-llama3.3-70b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 Coder 7B Instructqwen/qwen2.5-coder-7b-instruct",
+    "url": "/qwen/qwen2.5-coder-7b-instruct",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,09",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 Coder 7B Instruct",
+    "model_id": "qwen/qwen2.5-coder-7b-instruct"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4.1openai/gpt-4.1",
+    "url": "/openai/gpt-4.1",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "1.047.576",
+    "company": "OpenAI",
+    "model_name": "GPT-4.1",
+    "model_id": "openai/gpt-4.1"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4.1 Miniopenai/gpt-4.1-mini",
+    "url": "/openai/gpt-4.1-mini",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$1,60",
+    "Context (tokens)": "1.047.576",
+    "company": "OpenAI",
+    "model_name": "GPT-4.1 Mini",
+    "model_id": "openai/gpt-4.1-mini"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4.1 Nanoopenai/gpt-4.1-nano",
+    "url": "/openai/gpt-4.1-nano",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "1.047.576",
+    "company": "OpenAI",
+    "model_name": "GPT-4.1 Nano",
+    "model_id": "openai/gpt-4.1-nano"
+  },
+  {
+    "Model Name & ID": "EleutherAI: Llemma 7beleutherai/llemma_7b",
+    "url": "/eleutherai/llemma_7b",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "4.096",
+    "company": "EleutherAI",
+    "model_name": "Llemma 7b",
+    "model_id": "eleutherai/llemma_7b"
+  },
+  {
+    "Model Name & ID": "AlfredPros: CodeLLaMa 7B Instruct Solidityalfredpros/codellama-7b-instruct-solidity",
+    "url": "/alfredpros/codellama-7b-instruct-solidity",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "4.096",
+    "company": "AlfredPros",
+    "model_name": "CodeLLaMa 7B Instruct Solidity",
+    "model_id": "alfredpros/codellama-7b-instruct-solidity"
+  },
+  {
+    "Model Name & ID": "ArliAI: QwQ 32B RpR v1 (free)arliai/qwq-32b-arliai-rpr-v1:free",
+    "url": "/arliai/qwq-32b-arliai-rpr-v1:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "ArliAI",
+    "model_name": "QwQ 32B RpR v1 (free)",
+    "model_id": "arliai/qwq-32b-arliai-rpr-v1:free"
+  },
+  {
+    "Model Name & ID": "ArliAI: QwQ 32B RpR v1arliai/qwq-32b-arliai-rpr-v1",
+    "url": "/arliai/qwq-32b-arliai-rpr-v1",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,11",
+    "Context (tokens)": "32.768",
+    "company": "ArliAI",
+    "model_name": "QwQ 32B RpR v1",
+    "model_id": "arliai/qwq-32b-arliai-rpr-v1"
+  },
+  {
+    "Model Name & ID": "Agentica: Deepcoder 14B Preview (free)agentica-org/deepcoder-14b-preview:free",
+    "url": "/agentica-org/deepcoder-14b-preview:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "96.000",
+    "company": "Agentica",
+    "model_name": "Deepcoder 14B Preview (free)",
+    "model_id": "agentica-org/deepcoder-14b-preview:free"
+  },
+  {
+    "Model Name & ID": "Agentica: Deepcoder 14B Previewagentica-org/deepcoder-14b-preview",
+    "url": "/agentica-org/deepcoder-14b-preview",
+    "Input ($/1M tokens)": "$0,015",
+    "Output ($/1M tokens)": "$0,015",
+    "Context (tokens)": "96.000",
+    "company": "Agentica",
+    "model_name": "Deepcoder 14B Preview",
+    "model_id": "agentica-org/deepcoder-14b-preview"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 3 Mini Betax-ai/grok-3-mini-beta",
+    "url": "/x-ai/grok-3-mini-beta",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,50",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok 3 Mini Beta",
+    "model_id": "x-ai/grok-3-mini-beta"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 3 Betax-ai/grok-3-beta",
+    "url": "/x-ai/grok-3-beta",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok 3 Beta",
+    "model_id": "x-ai/grok-3-beta"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "url": "/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "Input ($/1M tokens)": "$0,60",
+    "Output ($/1M tokens)": "$1,80",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Llama 3.1 Nemotron Ultra 253B v1",
+    "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 4 Maverick (free)meta-llama/llama-4-maverick:free",
+    "url": "/meta-llama/llama-4-maverick:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "128.000",
+    "company": "Meta",
+    "model_name": "Llama 4 Maverick (free)",
+    "model_id": "meta-llama/llama-4-maverick:free"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 4 Maverickmeta-llama/llama-4-maverick",
+    "url": "/meta-llama/llama-4-maverick",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "1.048.576",
+    "company": "Meta",
+    "model_name": "Llama 4 Maverick",
+    "model_id": "meta-llama/llama-4-maverick"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 4 Scout (free)meta-llama/llama-4-scout:free",
+    "url": "/meta-llama/llama-4-scout:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "128.000",
+    "company": "Meta",
+    "model_name": "Llama 4 Scout (free)",
+    "model_id": "meta-llama/llama-4-scout:free"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 4 Scoutmeta-llama/llama-4-scout",
+    "url": "/meta-llama/llama-4-scout",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,30",
+    "Context (tokens)": "327.680",
+    "company": "Meta",
+    "model_name": "Llama 4 Scout",
+    "model_id": "meta-llama/llama-4-scout"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 VL 32B Instruct (free)qwen/qwen2.5-vl-32b-instruct:free",
+    "url": "/qwen/qwen2.5-vl-32b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "16.384",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 VL 32B Instruct (free)",
+    "model_id": "qwen/qwen2.5-vl-32b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 VL 32B Instructqwen/qwen2.5-vl-32b-instruct",
+    "url": "/qwen/qwen2.5-vl-32b-instruct",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,22",
+    "Context (tokens)": "16.384",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 VL 32B Instruct",
+    "model_id": "qwen/qwen2.5-vl-32b-instruct"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3 0324 (free)deepseek/deepseek-chat-v3-0324:free",
+    "url": "/deepseek/deepseek-chat-v3-0324:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3 0324 (free)",
+    "model_id": "deepseek/deepseek-chat-v3-0324:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3 0324deepseek/deepseek-chat-v3-0324",
+    "url": "/deepseek/deepseek-chat-v3-0324",
+    "Input ($/1M tokens)": "$0,24",
+    "Output ($/1M tokens)": "$0,84",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3 0324",
+    "model_id": "deepseek/deepseek-chat-v3-0324"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1-proopenai/o1-pro",
+    "url": "/openai/o1-pro",
+    "Input ($/1M tokens)": "$150",
+    "Output ($/1M tokens)": "$600",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o1-pro",
+    "model_id": "openai/o1-pro"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3.1 24B (free)mistralai/mistral-small-3.1-24b-instruct:free",
+    "url": "/mistralai/mistral-small-3.1-24b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "96.000",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3.1 24B (free)",
+    "model_id": "mistralai/mistral-small-3.1-24b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3.1 24Bmistralai/mistral-small-3.1-24b-instruct",
+    "url": "/mistralai/mistral-small-3.1-24b-instruct",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "128.000",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3.1 24B",
+    "model_id": "mistralai/mistral-small-3.1-24b-instruct"
+  },
+  {
+    "Model Name & ID": "AllenAI: Olmo 2 32B Instructallenai/olmo-2-0325-32b-instruct",
+    "url": "/allenai/olmo-2-0325-32b-instruct",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,35",
+    "Context (tokens)": "4.096",
+    "company": "AllenAI",
+    "model_name": "Olmo 2 32B Instruct",
+    "model_id": "allenai/olmo-2-0325-32b-instruct"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 4B (free)google/gemma-3-4b-it:free",
+    "url": "/google/gemma-3-4b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Google",
+    "model_name": "Gemma 3 4B (free)",
+    "model_id": "google/gemma-3-4b-it:free"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 4Bgoogle/gemma-3-4b-it",
+    "url": "/google/gemma-3-4b-it",
+    "Input ($/1M tokens)": "$0,017",
+    "Output ($/1M tokens)": "$0,068",
+    "Context (tokens)": "96.000",
+    "company": "Google",
+    "model_name": "Gemma 3 4B",
+    "model_id": "google/gemma-3-4b-it"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 12B (free)google/gemma-3-12b-it:free",
+    "url": "/google/gemma-3-12b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Google",
+    "model_name": "Gemma 3 12B (free)",
+    "model_id": "google/gemma-3-12b-it:free"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 12Bgoogle/gemma-3-12b-it",
+    "url": "/google/gemma-3-12b-it",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "131.072",
+    "company": "Google",
+    "model_name": "Gemma 3 12B",
+    "model_id": "google/gemma-3-12b-it"
+  },
+  {
+    "Model Name & ID": "Cohere: Command Acohere/command-a",
+    "url": "/cohere/command-a",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "256.000",
+    "company": "Cohere",
+    "model_name": "Command A",
+    "model_id": "cohere/command-a"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o-mini Search Previewopenai/gpt-4o-mini-search-preview",
+    "url": "/openai/gpt-4o-mini-search-preview",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o-mini Search Preview",
+    "model_id": "openai/gpt-4o-mini-search-preview"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o Search Previewopenai/gpt-4o-search-preview",
+    "url": "/openai/gpt-4o-search-preview",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o Search Preview",
+    "model_id": "openai/gpt-4o-search-preview"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 27B (free)google/gemma-3-27b-it:free",
+    "url": "/google/gemma-3-27b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "96.000",
+    "company": "Google",
+    "model_name": "Gemma 3 27B (free)",
+    "model_id": "google/gemma-3-27b-it:free"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 27Bgoogle/gemma-3-27b-it",
+    "url": "/google/gemma-3-27b-it",
+    "Input ($/1M tokens)": "$0,09",
+    "Output ($/1M tokens)": "$0,16",
+    "Context (tokens)": "131.072",
+    "company": "Google",
+    "model_name": "Gemma 3 27B",
+    "model_id": "google/gemma-3-27b-it"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Skyfall 36B V2thedrummer/skyfall-36b-v2",
+    "url": "/thedrummer/skyfall-36b-v2",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,33",
+    "Context (tokens)": "32.768",
+    "company": "TheDrummer",
+    "model_name": "Skyfall 36B V2",
+    "model_id": "thedrummer/skyfall-36b-v2"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi 4 Multimodal Instructmicrosoft/phi-4-multimodal-instruct",
+    "url": "/microsoft/phi-4-multimodal-instruct",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "131.072",
+    "company": "Microsoft",
+    "model_name": "Phi 4 Multimodal Instruct",
+    "model_id": "microsoft/phi-4-multimodal-instruct"
+  },
+  {
+    "Model Name & ID": "Perplexity: Sonar Reasoning Properplexity/sonar-reasoning-pro",
+    "url": "/perplexity/sonar-reasoning-pro",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "128.000",
+    "company": "Perplexity",
+    "model_name": "Sonar Reasoning Pro",
+    "model_id": "perplexity/sonar-reasoning-pro"
+  },
+  {
+    "Model Name & ID": "Perplexity: Sonar Properplexity/sonar-pro",
+    "url": "/perplexity/sonar-pro",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "200.000",
+    "company": "Perplexity",
+    "model_name": "Sonar Pro",
+    "model_id": "perplexity/sonar-pro"
+  },
+  {
+    "Model Name & ID": "Perplexity: Sonar Deep Researchperplexity/sonar-deep-research",
+    "url": "/perplexity/sonar-deep-research",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "128.000",
+    "company": "Perplexity",
+    "model_name": "Sonar Deep Research",
+    "model_id": "perplexity/sonar-deep-research"
+  },
+  {
+    "Model Name & ID": "Qwen: QwQ 32Bqwen/qwq-32b",
+    "url": "/qwen/qwq-32b",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "QwQ 32B",
+    "model_id": "qwen/qwq-32b"
+  },
+  {
+    "Model Name & ID": "Nous: DeepHermes 3 Llama 3 8B Preview (free)nousresearch/deephermes-3-llama-3-8b-preview:free",
+    "url": "/nousresearch/deephermes-3-llama-3-8b-preview:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "DeepHermes 3 Llama 3 8B Preview (free)",
+    "model_id": "nousresearch/deephermes-3-llama-3-8b-preview:free"
+  },
+  {
+    "Model Name & ID": "Nous: DeepHermes 3 Llama 3 8B Previewnousresearch/deephermes-3-llama-3-8b-preview",
+    "url": "/nousresearch/deephermes-3-llama-3-8b-preview",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,11",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "DeepHermes 3 Llama 3 8B Preview",
+    "model_id": "nousresearch/deephermes-3-llama-3-8b-preview"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.0 Flash Litegoogle/gemini-2.0-flash-lite-001",
+    "url": "/google/gemini-2.0-flash-lite-001",
+    "Input ($/1M tokens)": "$0,075",
+    "Output ($/1M tokens)": "$0,30",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.0 Flash Lite",
+    "model_id": "google/gemini-2.0-flash-lite-001"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.7 Sonnet (thinking)anthropic/claude-3.7-sonnet:thinking",
+    "url": "/anthropic/claude-3.7-sonnet:thinking",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.7 Sonnet (thinking)",
+    "model_id": "anthropic/claude-3.7-sonnet:thinking"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.7 Sonnetanthropic/claude-3.7-sonnet",
+    "url": "/anthropic/claude-3.7-sonnet",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.7 Sonnet",
+    "model_id": "anthropic/claude-3.7-sonnet"
+  },
+  {
+    "Model Name & ID": "Mistral: Sabamistralai/mistral-saba",
+    "url": "/mistralai/mistral-saba",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Saba",
+    "model_id": "mistralai/mistral-saba"
+  },
+  {
+    "Model Name & ID": "Dolphin3.0 Mistral 24B (free)cognitivecomputations/dolphin3.0-mistral-24b:free",
+    "url": "/cognitivecomputations/dolphin3.0-mistral-24b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Dolphin3.0 Mistral 24B (free)cognitivecomputations/dolphin3.0-mistral-24b",
+    "model_name": "free",
+    "model_id": "cognitivecomputations/dolphin3.0-mistral-24b:free"
+  },
+  {
+    "Model Name & ID": "Dolphin3.0 Mistral 24Bcognitivecomputations/dolphin3.0-mistral-24b",
+    "url": "/cognitivecomputations/dolphin3.0-mistral-24b",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,17",
+    "Context (tokens)": "32.768",
+    "company": "Cognitivecomputations",
+    "model_name": "Dolphin3.0 Mistral 24B",
+    "model_id": "cognitivecomputations/dolphin3.0-mistral-24b"
+  },
+  {
+    "Model Name & ID": "Llama Guard 3 8Bmeta-llama/llama-guard-3-8b",
+    "url": "/meta-llama/llama-guard-3-8b",
+    "Input ($/1M tokens)": "$0,02",
+    "Output ($/1M tokens)": "$0,06",
+    "Context (tokens)": "131.072",
+    "company": "Meta Llama",
+    "model_name": "Llama Guard 3 8B",
+    "model_id": "meta-llama/llama-guard-3-8b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o3 Mini Highopenai/o3-mini-high",
+    "url": "/openai/o3-mini-high",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o3 Mini High",
+    "model_id": "openai/o3-mini-high"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.0 Flashgoogle/gemini-2.0-flash-001",
+    "url": "/google/gemini-2.0-flash-001",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.0 Flash",
+    "model_id": "google/gemini-2.0-flash-001"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen VL Plusqwen/qwen-vl-plus",
+    "url": "/qwen/qwen-vl-plus",
+    "Input ($/1M tokens)": "$0,21",
+    "Output ($/1M tokens)": "$0,63",
+    "Context (tokens)": "7.500",
+    "company": "Qwen",
+    "model_name": "Qwen VL Plus",
+    "model_id": "qwen/qwen-vl-plus"
+  },
+  {
+    "Model Name & ID": "AionLabs: Aion-1.0aion-labs/aion-1.0",
+    "url": "/aion-labs/aion-1.0",
+    "Input ($/1M tokens)": "$4",
+    "Output ($/1M tokens)": "$8",
+    "Context (tokens)": "131.072",
+    "company": "AionLabs",
+    "model_name": "Aion-1.0",
+    "model_id": "aion-labs/aion-1.0"
+  },
+  {
+    "Model Name & ID": "AionLabs: Aion-1.0-Miniaion-labs/aion-1.0-mini",
+    "url": "/aion-labs/aion-1.0-mini",
+    "Input ($/1M tokens)": "$0,70",
+    "Output ($/1M tokens)": "$1,40",
+    "Context (tokens)": "131.072",
+    "company": "AionLabs",
+    "model_name": "Aion-1.0-Mini",
+    "model_id": "aion-labs/aion-1.0-mini"
+  },
+  {
+    "Model Name & ID": "AionLabs: Aion-RP 1.0 (8B)aion-labs/aion-rp-llama-3.1-8b",
+    "url": "/aion-labs/aion-rp-llama-3.1-8b",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "32.768",
+    "company": "AionLabs",
+    "model_name": "Aion-RP 1.0 (8B)",
+    "model_id": "aion-labs/aion-rp-llama-3.1-8b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen VL Maxqwen/qwen-vl-max",
+    "url": "/qwen/qwen-vl-max",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$3,20",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen VL Max",
+    "model_id": "qwen/qwen-vl-max"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen-Turboqwen/qwen-turbo",
+    "url": "/qwen/qwen-turbo",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "1.000.000",
+    "company": "Qwen",
+    "model_name": "Qwen-Turbo",
+    "model_id": "qwen/qwen-turbo"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 VL 72B Instructqwen/qwen2.5-vl-72b-instruct",
+    "url": "/qwen/qwen2.5-vl-72b-instruct",
+    "Input ($/1M tokens)": "$0,08",
+    "Output ($/1M tokens)": "$0,33",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 VL 72B Instruct",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen-Plusqwen/qwen-plus",
+    "url": "/qwen/qwen-plus",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$1,20",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen-Plus",
+    "model_id": "qwen/qwen-plus"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen-Maxqwen/qwen-max",
+    "url": "/qwen/qwen-max",
+    "Input ($/1M tokens)": "$1,60",
+    "Output ($/1M tokens)": "$6,40",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen-Max",
+    "model_id": "qwen/qwen-max"
+  },
+  {
+    "Model Name & ID": "OpenAI: o3 Miniopenai/o3-mini",
+    "url": "/openai/o3-mini",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o3 Mini",
+    "model_id": "openai/o3-mini"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3 (free)mistralai/mistral-small-24b-instruct-2501:free",
+    "url": "/mistralai/mistral-small-24b-instruct-2501:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3 (free)",
+    "model_id": "mistralai/mistral-small-24b-instruct-2501:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Small 3mistralai/mistral-small-24b-instruct-2501",
+    "url": "/mistralai/mistral-small-24b-instruct-2501",
+    "Input ($/1M tokens)": "$0,05",
+    "Output ($/1M tokens)": "$0,08",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral Small 3",
+    "model_id": "mistralai/mistral-small-24b-instruct-2501"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Qwen 32Bdeepseek/deepseek-r1-distill-qwen-32b",
+    "url": "/deepseek/deepseek-r1-distill-qwen-32b",
+    "Input ($/1M tokens)": "$0,29",
+    "Output ($/1M tokens)": "$0,29",
+    "Context (tokens)": "32.768",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Qwen 32B",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-32b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Qwen 14Bdeepseek/deepseek-r1-distill-qwen-14b",
+    "url": "/deepseek/deepseek-r1-distill-qwen-14b",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,15",
+    "Context (tokens)": "32.768",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Qwen 14B",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-14b"
+  },
+  {
+    "Model Name & ID": "Perplexity: Sonar Reasoningperplexity/sonar-reasoning",
+    "url": "/perplexity/sonar-reasoning",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "127.000",
+    "company": "Perplexity",
+    "model_name": "Sonar Reasoning",
+    "model_id": "perplexity/sonar-reasoning"
+  },
+  {
+    "Model Name & ID": "Perplexity: Sonarperplexity/sonar",
+    "url": "/perplexity/sonar",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "127.072",
+    "company": "Perplexity",
+    "model_name": "Sonar",
+    "model_id": "perplexity/sonar"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Llama 70B (free)deepseek/deepseek-r1-distill-llama-70b:free",
+    "url": "/deepseek/deepseek-r1-distill-llama-70b:free",
+    "Input ($/1M tokens)": "$0100% off",
+    "Output ($/1M tokens)": "$0100% off",
+    "Context (tokens)": "8.192",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Llama 70B (free)",
+    "model_id": "deepseek/deepseek-r1-distill-llama-70b:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Llama 70Bdeepseek/deepseek-r1-distill-llama-70b",
+    "url": "/deepseek/deepseek-r1-distill-llama-70b",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,13",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Llama 70B",
+    "model_id": "deepseek/deepseek-r1-distill-llama-70b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 (free)deepseek/deepseek-r1:free",
+    "url": "/deepseek/deepseek-r1:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "R1 (free)",
+    "model_id": "deepseek/deepseek-r1:free"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1deepseek/deepseek-r1",
+    "url": "/deepseek/deepseek-r1",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "R1",
+    "model_id": "deepseek/deepseek-r1"
+  },
+  {
+    "Model Name & ID": "MiniMax: MiniMax-01minimax/minimax-01",
+    "url": "/minimax/minimax-01",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$1,10",
+    "Context (tokens)": "1.000.192",
+    "company": "MiniMax",
+    "model_name": "MiniMax-01",
+    "model_id": "minimax/minimax-01"
+  },
+  {
+    "Model Name & ID": "Mistral: Codestral 2501mistralai/codestral-2501",
+    "url": "/mistralai/codestral-2501",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,90",
+    "Context (tokens)": "262.144",
+    "company": "Mistral",
+    "model_name": "Codestral 2501",
+    "model_id": "mistralai/codestral-2501"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi 4microsoft/phi-4",
+    "url": "/microsoft/phi-4",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,14",
+    "Context (tokens)": "16.384",
+    "company": "Microsoft",
+    "model_name": "Phi 4",
+    "model_id": "microsoft/phi-4"
+  },
+  {
+    "Model Name & ID": "Sao10K: Llama 3.1 70B Hanami x1sao10k/l3.1-70b-hanami-x1",
+    "url": "/sao10k/l3.1-70b-hanami-x1",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$3",
+    "Context (tokens)": "16.000",
+    "company": "Sao10K",
+    "model_name": "Llama 3.1 70B Hanami x1",
+    "model_id": "sao10k/l3.1-70b-hanami-x1"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3deepseek/deepseek-chat",
+    "url": "/deepseek/deepseek-chat",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,85",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3",
+    "model_id": "deepseek/deepseek-chat"
+  },
+  {
+    "Model Name & ID": "Sao10K: Llama 3.3 Euryale 70Bsao10k/l3.3-euryale-70b",
+    "url": "/sao10k/l3.3-euryale-70b",
+    "Input ($/1M tokens)": "$0,65",
+    "Output ($/1M tokens)": "$0,75",
+    "Context (tokens)": "131.072",
+    "company": "Sao10K",
+    "model_name": "Llama 3.3 Euryale 70B",
+    "model_id": "sao10k/l3.3-euryale-70b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1openai/o1",
+    "url": "/openai/o1",
+    "Input ($/1M tokens)": "$15",
+    "Output ($/1M tokens)": "$60",
+    "Context (tokens)": "200.000",
+    "company": "OpenAI",
+    "model_name": "o1",
+    "model_id": "openai/o1"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R7B (12-2024)cohere/command-r7b-12-2024",
+    "url": "/cohere/command-r7b-12-2024",
+    "Input ($/1M tokens)": "$0,038",
+    "Output ($/1M tokens)": "$0,15",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R7B (12-2024)",
+    "model_id": "cohere/command-r7b-12-2024"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.0 Flash Experimental (free)google/gemini-2.0-flash-exp:free",
+    "url": "/google/gemini-2.0-flash-exp:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.0 Flash Experimental (free)",
+    "model_id": "google/gemini-2.0-flash-exp:free"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.3 70B Instruct (free)meta-llama/llama-3.3-70b-instruct:free",
+    "url": "/meta-llama/llama-3.3-70b-instruct:free",
+    "Input ($/1M tokens)": "$0100% off",
+    "Output ($/1M tokens)": "$0100% off",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.3 70B Instruct (free)",
+    "model_id": "meta-llama/llama-3.3-70b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.3 70B Instructmeta-llama/llama-3.3-70b-instruct",
+    "url": "/meta-llama/llama-3.3-70b-instruct",
+    "Input ($/1M tokens)": "$0,13",
+    "Output ($/1M tokens)": "$0,38",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.3 70B Instruct",
+    "model_id": "meta-llama/llama-3.3-70b-instruct"
+  },
+  {
+    "Model Name & ID": "Amazon: Nova Lite 1.0amazon/nova-lite-v1",
+    "url": "/amazon/nova-lite-v1",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,24",
+    "Context (tokens)": "300.000",
+    "company": "Amazon",
+    "model_name": "Nova Lite 1.0",
+    "model_id": "amazon/nova-lite-v1"
+  },
+  {
+    "Model Name & ID": "Amazon: Nova Micro 1.0amazon/nova-micro-v1",
+    "url": "/amazon/nova-micro-v1",
+    "Input ($/1M tokens)": "$0,035",
+    "Output ($/1M tokens)": "$0,14",
+    "Context (tokens)": "128.000",
+    "company": "Amazon",
+    "model_name": "Nova Micro 1.0",
+    "model_id": "amazon/nova-micro-v1"
+  },
+  {
+    "Model Name & ID": "Amazon: Nova Pro 1.0amazon/nova-pro-v1",
+    "url": "/amazon/nova-pro-v1",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$3,20",
+    "Context (tokens)": "300.000",
+    "company": "Amazon",
+    "model_name": "Nova Pro 1.0",
+    "model_id": "amazon/nova-pro-v1"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o (2024-11-20)openai/gpt-4o-2024-11-20",
+    "url": "/openai/gpt-4o-2024-11-20",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o (2024-11-20)",
+    "model_id": "openai/gpt-4o-2024-11-20"
+  },
+  {
+    "Model Name & ID": "Mistral Large 2411mistralai/mistral-large-2411",
+    "url": "/mistralai/mistral-large-2411",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "131.072",
+    "company": "Mistralai",
+    "model_name": "Mistral Large 2411",
+    "model_id": "mistralai/mistral-large-2411"
+  },
+  {
+    "Model Name & ID": "Mistral Large 2407mistralai/mistral-large-2407",
+    "url": "/mistralai/mistral-large-2407",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "131.072",
+    "company": "Mistralai",
+    "model_name": "Mistral Large 2407",
+    "model_id": "mistralai/mistral-large-2407"
+  },
+  {
+    "Model Name & ID": "Mistral: Pixtral Large 2411mistralai/pixtral-large-2411",
+    "url": "/mistralai/pixtral-large-2411",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Pixtral Large 2411",
+    "model_id": "mistralai/pixtral-large-2411"
+  },
+  {
+    "Model Name & ID": "Qwen2.5 Coder 32B Instruct (free)qwen/qwen-2.5-coder-32b-instruct:free",
+    "url": "/qwen/qwen-2.5-coder-32b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Qwen2.5 Coder 32B Instruct (free)qwen/qwen-2.5-coder-32b-instruct",
+    "model_name": "free",
+    "model_id": "qwen/qwen-2.5-coder-32b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Qwen2.5 Coder 32B Instructqwen/qwen-2.5-coder-32b-instruct",
+    "url": "/qwen/qwen-2.5-coder-32b-instruct",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,16",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 Coder 32B Instruct",
+    "model_id": "qwen/qwen-2.5-coder-32b-instruct"
+  },
+  {
+    "Model Name & ID": "SorcererLM 8x22Braifle/sorcererlm-8x22b",
+    "url": "/raifle/sorcererlm-8x22b",
+    "Input ($/1M tokens)": "$4,50",
+    "Output ($/1M tokens)": "$4,50",
+    "Context (tokens)": "16.000",
+    "company": "Raifle",
+    "model_name": "SorcererLM 8x22B",
+    "model_id": "raifle/sorcererlm-8x22b"
+  },
+  {
+    "Model Name & ID": "TheDrummer: UnslopNemo 12Bthedrummer/unslopnemo-12b",
+    "url": "/thedrummer/unslopnemo-12b",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "32.768",
+    "company": "TheDrummer",
+    "model_name": "UnslopNemo 12B",
+    "model_id": "thedrummer/unslopnemo-12b"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.5 Haikuanthropic/claude-3.5-haiku",
+    "url": "/anthropic/claude-3.5-haiku",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$4",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.5 Haiku",
+    "model_id": "anthropic/claude-3.5-haiku"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.5 Haiku (2024-10-22)anthropic/claude-3.5-haiku-20241022",
+    "url": "/anthropic/claude-3.5-haiku-20241022",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$4",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.5 Haiku (2024-10-22)",
+    "model_id": "anthropic/claude-3.5-haiku-20241022"
+  },
+  {
+    "Model Name & ID": "Magnum v4 72Banthracite-org/magnum-v4-72b",
+    "url": "/anthracite-org/magnum-v4-72b",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$5",
+    "Context (tokens)": "16.384",
+    "company": "Anthracite Org",
+    "model_name": "Magnum v4 72B",
+    "model_id": "anthracite-org/magnum-v4-72b"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.5 Sonnetanthropic/claude-3.5-sonnet",
+    "url": "/anthropic/claude-3.5-sonnet",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.5 Sonnet",
+    "model_id": "anthropic/claude-3.5-sonnet"
+  },
+  {
+    "Model Name & ID": "Mistral: Ministral 8Bmistralai/ministral-8b",
+    "url": "/mistralai/ministral-8b",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b"
+  },
+  {
+    "Model Name & ID": "Mistral: Ministral 3Bmistralai/ministral-3b",
+    "url": "/mistralai/ministral-3b",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,04",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Ministral 3B",
+    "model_id": "mistralai/ministral-3b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 7B Instructqwen/qwen-2.5-7b-instruct",
+    "url": "/qwen/qwen-2.5-7b-instruct",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 7B Instruct",
+    "model_id": "qwen/qwen-2.5-7b-instruct"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Llama 3.1 Nemotron 70B Instructnvidia/llama-3.1-nemotron-70b-instruct",
+    "url": "/nvidia/llama-3.1-nemotron-70b-instruct",
+    "Input ($/1M tokens)": "$0,60",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Llama 3.1 Nemotron 70B Instruct",
+    "model_id": "nvidia/llama-3.1-nemotron-70b-instruct"
+  },
+  {
+    "Model Name & ID": "Inflection: Inflection 3 Productivityinflection/inflection-3-productivity",
+    "url": "/inflection/inflection-3-productivity",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "8.000",
+    "company": "Inflection",
+    "model_name": "Inflection 3 Productivity",
+    "model_id": "inflection/inflection-3-productivity"
+  },
+  {
+    "Model Name & ID": "Inflection: Inflection 3 Piinflection/inflection-3-pi",
+    "url": "/inflection/inflection-3-pi",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "8.000",
+    "company": "Inflection",
+    "model_name": "Inflection 3 Pi",
+    "model_id": "inflection/inflection-3-pi"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Rocinante 12Bthedrummer/rocinante-12b",
+    "url": "/thedrummer/rocinante-12b",
+    "Input ($/1M tokens)": "$0,17",
+    "Output ($/1M tokens)": "$0,43",
+    "Context (tokens)": "32.768",
+    "company": "TheDrummer",
+    "model_name": "Rocinante 12B",
+    "model_id": "thedrummer/rocinante-12b"
+  },
+  {
+    "Model Name & ID": "Magnum v2 72Banthracite-org/magnum-v2-72b",
+    "url": "/anthracite-org/magnum-v2-72b",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$3",
+    "Context (tokens)": "32.768",
+    "company": "Anthracite Org",
+    "model_name": "Magnum v2 72B",
+    "model_id": "anthracite-org/magnum-v2-72b"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.2 3B Instruct (free)meta-llama/llama-3.2-3b-instruct:free",
+    "url": "/meta-llama/llama-3.2-3b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.2 3B Instruct (free)",
+    "model_id": "meta-llama/llama-3.2-3b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.2 3B Instructmeta-llama/llama-3.2-3b-instruct",
+    "url": "/meta-llama/llama-3.2-3b-instruct",
+    "Input ($/1M tokens)": "$0,02",
+    "Output ($/1M tokens)": "$0,02",
+    "Context (tokens)": "16.384",
+    "company": "Meta",
+    "model_name": "Llama 3.2 3B Instruct",
+    "model_id": "meta-llama/llama-3.2-3b-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.2 1B Instructmeta-llama/llama-3.2-1b-instruct",
+    "url": "/meta-llama/llama-3.2-1b-instruct",
+    "Input ($/1M tokens)": "$0,005",
+    "Output ($/1M tokens)": "$0,01",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.2 1B Instruct",
+    "model_id": "meta-llama/llama-3.2-1b-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.2 90B Vision Instructmeta-llama/llama-3.2-90b-vision-instruct",
+    "url": "/meta-llama/llama-3.2-90b-vision-instruct",
+    "Input ($/1M tokens)": "$0,35",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "32.768",
+    "company": "Meta",
+    "model_name": "Llama 3.2 90B Vision Instruct",
+    "model_id": "meta-llama/llama-3.2-90b-vision-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.2 11B Vision Instructmeta-llama/llama-3.2-11b-vision-instruct",
+    "url": "/meta-llama/llama-3.2-11b-vision-instruct",
+    "Input ($/1M tokens)": "$0,049",
+    "Output ($/1M tokens)": "$0,049",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.2 11B Vision Instruct",
+    "model_id": "meta-llama/llama-3.2-11b-vision-instruct"
+  },
+  {
+    "Model Name & ID": "Qwen2.5 72B Instruct (free)qwen/qwen-2.5-72b-instruct:free",
+    "url": "/qwen/qwen-2.5-72b-instruct:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "32.768",
+    "company": "Qwen2.5 72B Instruct (free)qwen/qwen-2.5-72b-instruct",
+    "model_name": "free",
+    "model_id": "qwen/qwen-2.5-72b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Qwen2.5 72B Instructqwen/qwen-2.5-72b-instruct",
+    "url": "/qwen/qwen-2.5-72b-instruct",
+    "Input ($/1M tokens)": "$0,07",
+    "Output ($/1M tokens)": "$0,26",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 72B Instruct",
+    "model_id": "qwen/qwen-2.5-72b-instruct"
+  },
+  {
+    "Model Name & ID": "NeverSleep: Lumimaid v0.2 8Bneversleep/llama-3.1-lumimaid-8b",
+    "url": "/neversleep/llama-3.1-lumimaid-8b",
+    "Input ($/1M tokens)": "$0,09",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "32.768",
+    "company": "NeverSleep",
+    "model_name": "Lumimaid v0.2 8B",
+    "model_id": "neversleep/llama-3.1-lumimaid-8b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1-miniopenai/o1-mini",
+    "url": "/openai/o1-mini",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "o1-mini",
+    "model_id": "openai/o1-mini"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1-mini (2024-09-12)openai/o1-mini-2024-09-12",
+    "url": "/openai/o1-mini-2024-09-12",
+    "Input ($/1M tokens)": "$1,10",
+    "Output ($/1M tokens)": "$4,40",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "o1-mini (2024-09-12)",
+    "model_id": "openai/o1-mini-2024-09-12"
+  },
+  {
+    "Model Name & ID": "Mistral: Pixtral 12Bmistralai/pixtral-12b",
+    "url": "/mistralai/pixtral-12b",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Pixtral 12B",
+    "model_id": "mistralai/pixtral-12b"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R+ (08-2024)cohere/command-r-plus-08-2024",
+    "url": "/cohere/command-r-plus-08-2024",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R+ (08-2024)",
+    "model_id": "cohere/command-r-plus-08-2024"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R (08-2024)cohere/command-r-08-2024",
+    "url": "/cohere/command-r-08-2024",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R (08-2024)",
+    "model_id": "cohere/command-r-08-2024"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5-VL 7B Instructqwen/qwen-2.5-vl-7b-instruct",
+    "url": "/qwen/qwen-2.5-vl-7b-instruct",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen2.5-VL 7B Instruct",
+    "model_id": "qwen/qwen-2.5-vl-7b-instruct"
+  },
+  {
+    "Model Name & ID": "Sao10K: Llama 3.1 Euryale 70B v2.2sao10k/l3.1-euryale-70b",
+    "url": "/sao10k/l3.1-euryale-70b",
+    "Input ($/1M tokens)": "$0,65",
+    "Output ($/1M tokens)": "$0,75",
+    "Context (tokens)": "32.768",
+    "company": "Sao10K",
+    "model_name": "Llama 3.1 Euryale 70B v2.2",
+    "model_id": "sao10k/l3.1-euryale-70b"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi-3.5 Mini 128K Instructmicrosoft/phi-3.5-mini-128k-instruct",
+    "url": "/microsoft/phi-3.5-mini-128k-instruct",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "128.000",
+    "company": "Microsoft",
+    "model_name": "Phi-3.5 Mini 128K Instruct",
+    "model_id": "microsoft/phi-3.5-mini-128k-instruct"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 3 70B Instructnousresearch/hermes-3-llama-3.1-70b",
+    "url": "/nousresearch/hermes-3-llama-3.1-70b",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,30",
+    "Context (tokens)": "65.536",
+    "company": "Nous",
+    "model_name": "Hermes 3 70B Instruct",
+    "model_id": "nousresearch/hermes-3-llama-3.1-70b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 3 405B Instruct (free)nousresearch/hermes-3-llama-3.1-405b:free",
+    "url": "/nousresearch/hermes-3-llama-3.1-405b:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "Hermes 3 405B Instruct (free)",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b:free"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 3 405B Instructnousresearch/hermes-3-llama-3.1-405b",
+    "url": "/nousresearch/hermes-3-llama-3.1-405b",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "131.072",
+    "company": "Nous",
+    "model_name": "Hermes 3 405B Instruct",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b"
+  },
+  {
+    "Model Name & ID": "OpenAI: ChatGPT-4oopenai/chatgpt-4o-latest",
+    "url": "/openai/chatgpt-4o-latest",
+    "Input ($/1M tokens)": "$5",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "ChatGPT-4o",
+    "model_id": "openai/chatgpt-4o-latest"
+  },
+  {
+    "Model Name & ID": "Sao10K: Llama 3 8B Lunarissao10k/l3-lunaris-8b",
+    "url": "/sao10k/l3-lunaris-8b",
+    "Input ($/1M tokens)": "$0,04",
+    "Output ($/1M tokens)": "$0,05",
+    "Context (tokens)": "8.192",
+    "company": "Sao10K",
+    "model_name": "Llama 3 8B Lunaris",
+    "model_id": "sao10k/l3-lunaris-8b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o (2024-08-06)openai/gpt-4o-2024-08-06",
+    "url": "/openai/gpt-4o-2024-08-06",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o (2024-08-06)",
+    "model_id": "openai/gpt-4o-2024-08-06"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.1 405B (base)meta-llama/llama-3.1-405b",
+    "url": "/meta-llama/llama-3.1-405b",
+    "Input ($/1M tokens)": "$4",
+    "Output ($/1M tokens)": "$4",
+    "Context (tokens)": "32.768",
+    "company": "Meta",
+    "model_name": "Llama 3.1 405B (base)",
+    "model_id": "meta-llama/llama-3.1-405b"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.1 8B Instructmeta-llama/llama-3.1-8b-instruct",
+    "url": "/meta-llama/llama-3.1-8b-instruct",
+    "Input ($/1M tokens)": "$0,02",
+    "Output ($/1M tokens)": "$0,03",
+    "Context (tokens)": "16.384",
+    "company": "Meta",
+    "model_name": "Llama 3.1 8B Instruct",
+    "model_id": "meta-llama/llama-3.1-8b-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.1 405B Instructmeta-llama/llama-3.1-405b-instruct",
+    "url": "/meta-llama/llama-3.1-405b-instruct",
+    "Input ($/1M tokens)": "$0,80",
+    "Output ($/1M tokens)": "$0,80",
+    "Context (tokens)": "32.768",
+    "company": "Meta",
+    "model_name": "Llama 3.1 405B Instruct",
+    "model_id": "meta-llama/llama-3.1-405b-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3.1 70B Instructmeta-llama/llama-3.1-70b-instruct",
+    "url": "/meta-llama/llama-3.1-70b-instruct",
+    "Input ($/1M tokens)": "$0,40",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "131.072",
+    "company": "Meta",
+    "model_name": "Llama 3.1 70B Instruct",
+    "model_id": "meta-llama/llama-3.1-70b-instruct"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Nemo (free)mistralai/mistral-nemo:free",
+    "url": "/mistralai/mistral-nemo:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Nemo (free)",
+    "model_id": "mistralai/mistral-nemo:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral Nemomistralai/mistral-nemo",
+    "url": "/mistralai/mistral-nemo",
+    "Input ($/1M tokens)": "$0,02",
+    "Output ($/1M tokens)": "$0,04",
+    "Context (tokens)": "131.072",
+    "company": "Mistral",
+    "model_name": "Mistral Nemo",
+    "model_id": "mistralai/mistral-nemo"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o-miniopenai/gpt-4o-mini",
+    "url": "/openai/gpt-4o-mini",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o-mini",
+    "model_id": "openai/gpt-4o-mini"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o-mini (2024-07-18)openai/gpt-4o-mini-2024-07-18",
+    "url": "/openai/gpt-4o-mini-2024-07-18",
+    "Input ($/1M tokens)": "$0,15",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o-mini (2024-07-18)",
+    "model_id": "openai/gpt-4o-mini-2024-07-18"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 2 27Bgoogle/gemma-2-27b-it",
+    "url": "/google/gemma-2-27b-it",
+    "Input ($/1M tokens)": "$0,65",
+    "Output ($/1M tokens)": "$0,65",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 2 27B",
+    "model_id": "google/gemma-2-27b-it"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 2 9B (free)google/gemma-2-9b-it:free",
+    "url": "/google/gemma-2-9b-it:free",
+    "Input ($/1M tokens)": "$0",
+    "Output ($/1M tokens)": "$0",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 2 9B (free)",
+    "model_id": "google/gemma-2-9b-it:free"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 2 9Bgoogle/gemma-2-9b-it",
+    "url": "/google/gemma-2-9b-it",
+    "Input ($/1M tokens)": "$0,01",
+    "Output ($/1M tokens)": "$0,03",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 2 9B",
+    "model_id": "google/gemma-2-9b-it"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3.5 Sonnet (2024-06-20)anthropic/claude-3.5-sonnet-20240620",
+    "url": "/anthropic/claude-3.5-sonnet-20240620",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3.5 Sonnet (2024-06-20)",
+    "model_id": "anthropic/claude-3.5-sonnet-20240620"
+  },
+  {
+    "Model Name & ID": "Sao10k: Llama 3 Euryale 70B v2.1sao10k/l3-euryale-70b",
+    "url": "/sao10k/l3-euryale-70b",
+    "Input ($/1M tokens)": "$1,48",
+    "Output ($/1M tokens)": "$1,48",
+    "Context (tokens)": "8.192",
+    "company": "Sao10k",
+    "model_name": "Llama 3 Euryale 70B v2.1",
+    "model_id": "sao10k/l3-euryale-70b"
+  },
+  {
+    "Model Name & ID": "NousResearch: Hermes 2 Pro - Llama-3 8Bnousresearch/hermes-2-pro-llama-3-8b",
+    "url": "/nousresearch/hermes-2-pro-llama-3-8b",
+    "Input ($/1M tokens)": "$0,025",
+    "Output ($/1M tokens)": "$0,08",
+    "Context (tokens)": "32.768",
+    "company": "NousResearch",
+    "model_name": "Hermes 2 Pro - Llama-3 8B",
+    "model_id": "nousresearch/hermes-2-pro-llama-3-8b"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral 7B Instruct (free)mistralai/mistral-7b-instruct:free",
+    "url": "/mistralai/mistral-7b-instruct:free",
+    "Input ($/1M tokens)": "$0100% off",
+    "Output ($/1M tokens)": "$0100% off",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral 7B Instruct (free)",
+    "model_id": "mistralai/mistral-7b-instruct:free"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral 7B Instructmistralai/mistral-7b-instruct",
+    "url": "/mistralai/mistral-7b-instruct",
+    "Input ($/1M tokens)": "$0,028",
+    "Output ($/1M tokens)": "$0,054",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral 7B Instruct",
+    "model_id": "mistralai/mistral-7b-instruct"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral 7B Instruct v0.3mistralai/mistral-7b-instruct-v0.3",
+    "url": "/mistralai/mistral-7b-instruct-v0.3",
+    "Input ($/1M tokens)": "$0,028",
+    "Output ($/1M tokens)": "$0,054",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral 7B Instruct v0.3",
+    "model_id": "mistralai/mistral-7b-instruct-v0.3"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi-3 Mini 128K Instructmicrosoft/phi-3-mini-128k-instruct",
+    "url": "/microsoft/phi-3-mini-128k-instruct",
+    "Input ($/1M tokens)": "$0,10",
+    "Output ($/1M tokens)": "$0,10",
+    "Context (tokens)": "128.000",
+    "company": "Microsoft",
+    "model_name": "Phi-3 Mini 128K Instruct",
+    "model_id": "microsoft/phi-3-mini-128k-instruct"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi-3 Medium 128K Instructmicrosoft/phi-3-medium-128k-instruct",
+    "url": "/microsoft/phi-3-medium-128k-instruct",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$1",
+    "Context (tokens)": "128.000",
+    "company": "Microsoft",
+    "model_name": "Phi-3 Medium 128K Instruct",
+    "model_id": "microsoft/phi-3-medium-128k-instruct"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4oopenai/gpt-4o",
+    "url": "/openai/gpt-4o",
+    "Input ($/1M tokens)": "$2,50",
+    "Output ($/1M tokens)": "$10",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o",
+    "model_id": "openai/gpt-4o"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o (extended)openai/gpt-4o:extended",
+    "url": "/openai/gpt-4o:extended",
+    "Input ($/1M tokens)": "$6",
+    "Output ($/1M tokens)": "$18",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o (extended)",
+    "model_id": "openai/gpt-4o:extended"
+  },
+  {
+    "Model Name & ID": "Meta: LlamaGuard 2 8Bmeta-llama/llama-guard-2-8b",
+    "url": "/meta-llama/llama-guard-2-8b",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "LlamaGuard 2 8B",
+    "model_id": "meta-llama/llama-guard-2-8b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4o (2024-05-13)openai/gpt-4o-2024-05-13",
+    "url": "/openai/gpt-4o-2024-05-13",
+    "Input ($/1M tokens)": "$5",
+    "Output ($/1M tokens)": "$15",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4o (2024-05-13)",
+    "model_id": "openai/gpt-4o-2024-05-13"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3 8B Instructmeta-llama/llama-3-8b-instruct",
+    "url": "/meta-llama/llama-3-8b-instruct",
+    "Input ($/1M tokens)": "$0,03",
+    "Output ($/1M tokens)": "$0,06",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "Llama 3 8B Instruct",
+    "model_id": "meta-llama/llama-3-8b-instruct"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3 70B Instructmeta-llama/llama-3-70b-instruct",
+    "url": "/meta-llama/llama-3-70b-instruct",
+    "Input ($/1M tokens)": "$0,30",
+    "Output ($/1M tokens)": "$0,40",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "Llama 3 70B Instruct",
+    "model_id": "meta-llama/llama-3-70b-instruct"
+  },
+  {
+    "Model Name & ID": "Mistral: Mixtral 8x22B Instructmistralai/mixtral-8x22b-instruct",
+    "url": "/mistralai/mixtral-8x22b-instruct",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "65.536",
+    "company": "Mistral",
+    "model_name": "Mixtral 8x22B Instruct",
+    "model_id": "mistralai/mixtral-8x22b-instruct"
+  },
+  {
+    "Model Name & ID": "WizardLM-2 8x22Bmicrosoft/wizardlm-2-8x22b",
+    "url": "/microsoft/wizardlm-2-8x22b",
+    "Input ($/1M tokens)": "$0,48",
+    "Output ($/1M tokens)": "$0,48",
+    "Context (tokens)": "65.536",
+    "company": "Microsoft",
+    "model_name": "WizardLM-2 8x22B",
+    "model_id": "microsoft/wizardlm-2-8x22b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 Turboopenai/gpt-4-turbo",
+    "url": "/openai/gpt-4-turbo",
+    "Input ($/1M tokens)": "$10",
+    "Output ($/1M tokens)": "$30",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4 Turbo",
+    "model_id": "openai/gpt-4-turbo"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3 Haikuanthropic/claude-3-haiku",
+    "url": "/anthropic/claude-3-haiku",
+    "Input ($/1M tokens)": "$0,25",
+    "Output ($/1M tokens)": "$1,25",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3 Haiku",
+    "model_id": "anthropic/claude-3-haiku"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3 Opusanthropic/claude-3-opus",
+    "url": "/anthropic/claude-3-opus",
+    "Input ($/1M tokens)": "$15",
+    "Output ($/1M tokens)": "$75",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3 Opus",
+    "model_id": "anthropic/claude-3-opus"
+  },
+  {
+    "Model Name & ID": "Mistral Largemistralai/mistral-large",
+    "url": "/mistralai/mistral-large",
+    "Input ($/1M tokens)": "$2",
+    "Output ($/1M tokens)": "$6",
+    "Context (tokens)": "128.000",
+    "company": "Mistralai",
+    "model_name": "Mistral Large",
+    "model_id": "mistralai/mistral-large"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo (older v0613)openai/gpt-3.5-turbo-0613",
+    "url": "/openai/gpt-3.5-turbo-0613",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "4.095",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo (older v0613)",
+    "model_id": "openai/gpt-3.5-turbo-0613"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 Turbo Previewopenai/gpt-4-turbo-preview",
+    "url": "/openai/gpt-4-turbo-preview",
+    "Input ($/1M tokens)": "$10",
+    "Output ($/1M tokens)": "$30",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4 Turbo Preview",
+    "model_id": "openai/gpt-4-turbo-preview"
+  },
+  {
+    "Model Name & ID": "Mistral Smallmistralai/mistral-small",
+    "url": "/mistralai/mistral-small",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,60",
+    "Context (tokens)": "32.768",
+    "company": "Mistralai",
+    "model_name": "Mistral Small",
+    "model_id": "mistralai/mistral-small"
+  },
+  {
+    "Model Name & ID": "Mistral Tinymistralai/mistral-tiny",
+    "url": "/mistralai/mistral-tiny",
+    "Input ($/1M tokens)": "$0,25",
+    "Output ($/1M tokens)": "$0,25",
+    "Context (tokens)": "32.768",
+    "company": "Mistralai",
+    "model_name": "Mistral Tiny",
+    "model_id": "mistralai/mistral-tiny"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral 7B Instruct v0.2mistralai/mistral-7b-instruct-v0.2",
+    "url": "/mistralai/mistral-7b-instruct-v0.2",
+    "Input ($/1M tokens)": "$0,20",
+    "Output ($/1M tokens)": "$0,20",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mistral 7B Instruct v0.2",
+    "model_id": "mistralai/mistral-7b-instruct-v0.2"
+  },
+  {
+    "Model Name & ID": "Mistral: Mixtral 8x7B Instructmistralai/mixtral-8x7b-instruct",
+    "url": "/mistralai/mixtral-8x7b-instruct",
+    "Input ($/1M tokens)": "$0,54",
+    "Output ($/1M tokens)": "$0,54",
+    "Context (tokens)": "32.768",
+    "company": "Mistral",
+    "model_name": "Mixtral 8x7B Instruct",
+    "model_id": "mistralai/mixtral-8x7b-instruct"
+  },
+  {
+    "Model Name & ID": "Noromaid 20Bneversleep/noromaid-20b",
+    "url": "/neversleep/noromaid-20b",
+    "Input ($/1M tokens)": "$1",
+    "Output ($/1M tokens)": "$1,75",
+    "Context (tokens)": "4.096",
+    "company": "Neversleep",
+    "model_name": "Noromaid 20B",
+    "model_id": "neversleep/noromaid-20b"
+  },
+  {
+    "Model Name & ID": "Goliath 120Balpindale/goliath-120b",
+    "url": "/alpindale/goliath-120b",
+    "Input ($/1M tokens)": "$4",
+    "Output ($/1M tokens)": "$5,50",
+    "Context (tokens)": "6.144",
+    "company": "Alpindale",
+    "model_name": "Goliath 120B",
+    "model_id": "alpindale/goliath-120b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 Turbo (older v1106)openai/gpt-4-1106-preview",
+    "url": "/openai/gpt-4-1106-preview",
+    "Input ($/1M tokens)": "$10",
+    "Output ($/1M tokens)": "$30",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4 Turbo (older v1106)",
+    "model_id": "openai/gpt-4-1106-preview"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo Instructopenai/gpt-3.5-turbo-instruct",
+    "url": "/openai/gpt-3.5-turbo-instruct",
+    "Input ($/1M tokens)": "$1,50",
+    "Output ($/1M tokens)": "$2",
+    "Context (tokens)": "4.095",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo Instruct",
+    "model_id": "openai/gpt-3.5-turbo-instruct"
+  },
+  {
+    "Model Name & ID": "Mistral: Mistral 7B Instruct v0.1mistralai/mistral-7b-instruct-v0.1",
+    "url": "/mistralai/mistral-7b-instruct-v0.1",
+    "Input ($/1M tokens)": "$0,11",
+    "Output ($/1M tokens)": "$0,19",
+    "Context (tokens)": "2.824",
+    "company": "Mistral",
+    "model_name": "Mistral 7B Instruct v0.1",
+    "model_id": "mistralai/mistral-7b-instruct-v0.1"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo 16kopenai/gpt-3.5-turbo-16k",
+    "url": "/openai/gpt-3.5-turbo-16k",
+    "Input ($/1M tokens)": "$3",
+    "Output ($/1M tokens)": "$4",
+    "Context (tokens)": "16.385",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo 16k",
+    "model_id": "openai/gpt-3.5-turbo-16k"
+  },
+  {
+    "Model Name & ID": "Mancer: Weaver (alpha)mancer/weaver",
+    "url": "/mancer/weaver",
+    "Input ($/1M tokens)": "$1,125",
+    "Output ($/1M tokens)": "$1,125",
+    "Context (tokens)": "8.000",
+    "company": "Mancer",
+    "model_name": "Weaver (alpha)",
+    "model_id": "mancer/weaver"
+  },
+  {
+    "Model Name & ID": "ReMM SLERP 13Bundi95/remm-slerp-l2-13b",
+    "url": "/undi95/remm-slerp-l2-13b",
+    "Input ($/1M tokens)": "$0,45",
+    "Output ($/1M tokens)": "$0,65",
+    "Context (tokens)": "6.144",
+    "company": "Undi95",
+    "model_name": "ReMM SLERP 13B",
+    "model_id": "undi95/remm-slerp-l2-13b"
+  },
+  {
+    "Model Name & ID": "MythoMax 13Bgryphe/mythomax-l2-13b",
+    "url": "/gryphe/mythomax-l2-13b",
+    "Input ($/1M tokens)": "$0,06",
+    "Output ($/1M tokens)": "$0,06",
+    "Context (tokens)": "4.096",
+    "company": "Gryphe",
+    "model_name": "MythoMax 13B",
+    "model_id": "gryphe/mythomax-l2-13b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turboopenai/gpt-3.5-turbo",
+    "url": "/openai/gpt-3.5-turbo",
+    "Input ($/1M tokens)": "$0,50",
+    "Output ($/1M tokens)": "$1,50",
+    "Context (tokens)": "16.385",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo",
+    "model_id": "openai/gpt-3.5-turbo"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4openai/gpt-4",
+    "url": "/openai/gpt-4",
+    "Input ($/1M tokens)": "$30",
+    "Output ($/1M tokens)": "$60",
+    "Context (tokens)": "8.191",
+    "company": "OpenAI",
+    "model_name": "GPT-4",
+    "model_id": "openai/gpt-4"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 (older v0314)openai/gpt-4-0314",
+    "url": "/openai/gpt-4-0314",
+    "Input ($/1M tokens)": "$30",
+    "Output ($/1M tokens)": "$60",
+    "Context (tokens)": "8.191",
+    "company": "OpenAI",
+    "model_name": "GPT-4 (older v0314)",
+    "model_id": "openai/gpt-4-0314"
+  },
+  {
+    "Model Name & ID": "Sonoma Dusk Alphaopenrouter/sonoma-dusk-alpha",
+    "url": "/openrouter/sonoma-dusk-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.000.000",
+    "company": "Openrouter",
+    "model_name": "Sonoma Dusk Alpha",
+    "model_id": "openrouter/sonoma-dusk-alpha"
+  },
+  {
+    "Model Name & ID": "Sonoma Sky Alphaopenrouter/sonoma-sky-alpha",
+    "url": "/openrouter/sonoma-sky-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.000.000",
+    "company": "Openrouter",
+    "model_name": "Sonoma Sky Alpha",
+    "model_id": "openrouter/sonoma-sky-alpha"
+  },
+  {
+    "Model Name & ID": "ByteDance: Seed OSS 36B Instructbytedance/seed-oss-36b-instruct",
+    "url": "/bytedance/seed-oss-36b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "ByteDance",
+    "model_name": "Seed OSS 36B Instruct",
+    "model_id": "bytedance/seed-oss-36b-instruct"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3.1 Basedeepseek/deepseek-v3.1-base",
+    "url": "/deepseek/deepseek-v3.1-base",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3.1 Base",
+    "model_id": "deepseek/deepseek-v3.1-base"
+  },
+  {
+    "Model Name & ID": "Horizon Betaopenrouter/horizon-beta",
+    "url": "/openrouter/horizon-beta",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "Openrouter",
+    "model_name": "Horizon Beta",
+    "model_id": "openrouter/horizon-beta"
+  },
+  {
+    "Model Name & ID": "Horizon Alphaopenrouter/horizon-alpha",
+    "url": "/openrouter/horizon-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "Openrouter",
+    "model_name": "Horizon Alpha",
+    "model_id": "openrouter/horizon-alpha"
+  },
+  {
+    "Model Name & ID": "Cypher Alphaopenrouter/cypher-alpha",
+    "url": "/openrouter/cypher-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Openrouter",
+    "model_name": "Cypher Alpha",
+    "model_id": "openrouter/cypher-alpha"
+  },
+  {
+    "Model Name & ID": "Morph: Fast Applymorph/morph-v2",
+    "url": "/morph/morph-v2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Morph",
+    "model_name": "Fast Apply",
+    "model_id": "morph/morph-v2"
+  },
+  {
+    "Model Name & ID": "SentientAGI: Dobby Mini Plus Llama 3.1 8Bsentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+    "url": "/sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "SentientAGI",
+    "model_name": "Dobby Mini Plus Llama 3.1 8B",
+    "model_id": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Qwen 7Bdeepseek/deepseek-r1-distill-qwen-7b",
+    "url": "/deepseek/deepseek-r1-distill-qwen-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Qwen 7B",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-7b"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 1 2Bgoogle/gemma-2b-it",
+    "url": "/google/gemma-2b-it",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 1 2B",
+    "model_id": "google/gemma-2b-it"
+  },
+  {
+    "Model Name & ID": "Sarvam AI: Sarvam-Msarvamai/sarvam-m",
+    "url": "/sarvamai/sarvam-m",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Sarvam AI",
+    "model_name": "Sarvam-M",
+    "model_id": "sarvamai/sarvam-m"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Valkyrie 49B V1thedrummer/valkyrie-49b-v1",
+    "url": "/thedrummer/valkyrie-49b-v1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "TheDrummer",
+    "model_name": "Valkyrie 49B V1",
+    "model_id": "thedrummer/valkyrie-49b-v1"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Preview 05-20google/gemini-2.5-flash-preview-05-20",
+    "url": "/google/gemini-2.5-flash-preview-05-20",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Preview 05-20",
+    "model_id": "google/gemini-2.5-flash-preview-05-20"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Caller Largearcee-ai/caller-large",
+    "url": "/arcee-ai/caller-large",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Arcee AI",
+    "model_name": "Caller Large",
+    "model_id": "arcee-ai/caller-large"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Virtuoso Medium V2arcee-ai/virtuoso-medium-v2",
+    "url": "/arcee-ai/virtuoso-medium-v2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "Arcee AI",
+    "model_name": "Virtuoso Medium V2",
+    "model_id": "arcee-ai/virtuoso-medium-v2"
+  },
+  {
+    "Model Name & ID": "Arcee AI: Arcee Blitzarcee-ai/arcee-blitz",
+    "url": "/arcee-ai/arcee-blitz",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Arcee AI",
+    "model_name": "Arcee Blitz",
+    "model_id": "arcee-ai/arcee-blitz"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi 4 Reasoningmicrosoft/phi-4-reasoning",
+    "url": "/microsoft/phi-4-reasoning",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Microsoft",
+    "model_name": "Phi 4 Reasoning",
+    "model_id": "microsoft/phi-4-reasoning"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 0.6Bqwen/qwen3-0.6b-04-28",
+    "url": "/qwen/qwen3-0.6b-04-28",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 0.6B",
+    "model_id": "qwen/qwen3-0.6b-04-28"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen3 1.7Bqwen/qwen3-1.7b",
+    "url": "/qwen/qwen3-1.7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Qwen",
+    "model_name": "Qwen3 1.7B",
+    "model_id": "qwen/qwen3-1.7b"
+  },
+  {
+    "Model Name & ID": "OpenGVLab: InternVL3 14Bopengvlab/internvl3-14b",
+    "url": "/opengvlab/internvl3-14b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "OpenGVLab",
+    "model_name": "InternVL3 14B",
+    "model_id": "opengvlab/internvl3-14b"
+  },
+  {
+    "Model Name & ID": "OpenGVLab: InternVL3 2Bopengvlab/internvl3-2b",
+    "url": "/opengvlab/internvl3-2b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "OpenGVLab",
+    "model_name": "InternVL3 2B",
+    "model_id": "opengvlab/internvl3-2b"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM Z1 Rumination 32Bthudm/glm-z1-rumination-32b",
+    "url": "/thudm/glm-z1-rumination-32b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "THUDM",
+    "model_name": "GLM Z1 Rumination 32B",
+    "model_id": "thudm/glm-z1-rumination-32b"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM Z1 9Bthudm/glm-z1-9b",
+    "url": "/thudm/glm-z1-9b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "THUDM",
+    "model_name": "GLM Z1 9B",
+    "model_id": "thudm/glm-z1-9b"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM 4 9Bthudm/glm-4-9b",
+    "url": "/thudm/glm-4-9b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "THUDM",
+    "model_name": "GLM 4 9B",
+    "model_id": "thudm/glm-4-9b"
+  },
+  {
+    "Model Name & ID": "THUDM: GLM 4 32Bthudm/glm-4-32b",
+    "url": "/thudm/glm-4-32b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "THUDM",
+    "model_name": "GLM 4 32B",
+    "model_id": "thudm/glm-4-32b"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Flash Preview 04-17google/gemini-2.5-flash-preview",
+    "url": "/google/gemini-2.5-flash-preview",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Flash Preview 04-17",
+    "model_id": "google/gemini-2.5-flash-preview"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Kimi VL A3B Thinkingmoonshotai/kimi-vl-a3b-thinking",
+    "url": "/moonshotai/kimi-vl-a3b-thinking",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "MoonshotAI",
+    "model_name": "Kimi VL A3B Thinking",
+    "model_id": "moonshotai/kimi-vl-a3b-thinking"
+  },
+  {
+    "Model Name & ID": "Optimus Alphaopenrouter/optimus-alpha",
+    "url": "/openrouter/optimus-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Openrouter",
+    "model_name": "Optimus Alpha",
+    "model_id": "openrouter/optimus-alpha"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Llama 3.1 Nemotron Nano 8B v1nvidia/llama-3.1-nemotron-nano-8b-v1",
+    "url": "/nvidia/llama-3.1-nemotron-nano-8b-v1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Llama 3.1 Nemotron Nano 8B v1",
+    "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Llama 3.3 Nemotron Super 49B v1nvidia/llama-3.3-nemotron-super-49b-v1",
+    "url": "/nvidia/llama-3.3-nemotron-super-49b-v1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "NVIDIA",
+    "model_name": "Llama 3.3 Nemotron Super 49B v1",
+    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1"
+  },
+  {
+    "Model Name & ID": "Swallow: Llama 3.1 Swallow 8B Instruct V0.3tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3",
+    "url": "/tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "Swallow",
+    "model_name": "Llama 3.1 Swallow 8B Instruct V0.3",
+    "model_id": "tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3"
+  },
+  {
+    "Model Name & ID": "Quasar Alphaopenrouter/quasar-alpha",
+    "url": "/openrouter/quasar-alpha",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Openrouter",
+    "model_name": "Quasar Alpha",
+    "model_id": "openrouter/quasar-alpha"
+  },
+  {
+    "Model Name & ID": "OpenHands LM 32B V0.1all-hands/openhands-lm-32b-v0.1",
+    "url": "/all-hands/openhands-lm-32b-v0.1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "All Hands",
+    "model_name": "OpenHands LM 32B V0.1",
+    "model_id": "all-hands/openhands-lm-32b-v0.1"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek V3 Basedeepseek/deepseek-v3-base",
+    "url": "/deepseek/deepseek-v3-base",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek V3 Base",
+    "model_id": "deepseek/deepseek-v3-base"
+  },
+  {
+    "Model Name & ID": "Typhoon2 8B Instructscb10x/llama3.1-typhoon2-8b-instruct",
+    "url": "/scb10x/llama3.1-typhoon2-8b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Scb10X",
+    "model_name": "Typhoon2 8B Instruct",
+    "model_id": "scb10x/llama3.1-typhoon2-8b-instruct"
+  },
+  {
+    "Model Name & ID": "Typhoon2 70B Instructscb10x/llama3.1-typhoon2-70b-instruct",
+    "url": "/scb10x/llama3.1-typhoon2-70b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Scb10X",
+    "model_name": "Typhoon2 70B Instruct",
+    "model_id": "scb10x/llama3.1-typhoon2-70b-instruct"
+  },
+  {
+    "Model Name & ID": "Bytedance: UI-TARS 72Bbytedance-research/ui-tars-72b",
+    "url": "/bytedance-research/ui-tars-72b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Bytedance",
+    "model_name": "UI-TARS 72B",
+    "model_id": "bytedance-research/ui-tars-72b"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 VL 3B Instructqwen/qwen2.5-vl-3b-instruct",
+    "url": "/qwen/qwen2.5-vl-3b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "64.000",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 VL 3B Instruct",
+    "model_id": "qwen/qwen2.5-vl-3b-instruct"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 2.5 Pro Experimentalgoogle/gemini-2.5-pro-exp-03-25",
+    "url": "/google/gemini-2.5-pro-exp-03-25",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.048.576",
+    "company": "Google",
+    "model_name": "Gemini 2.5 Pro Experimental",
+    "model_id": "google/gemini-2.5-pro-exp-03-25"
+  },
+  {
+    "Model Name & ID": "Qrwkv 72Bfeatherless/qwerky-72b",
+    "url": "/featherless/qwerky-72b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Featherless",
+    "model_name": "Qrwkv 72B",
+    "model_id": "featherless/qwerky-72b"
+  },
+  {
+    "Model Name & ID": "OlympicCoder 32Bopen-r1/olympiccoder-32b",
+    "url": "/open-r1/olympiccoder-32b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Open R1",
+    "model_name": "OlympicCoder 32B",
+    "model_id": "open-r1/olympiccoder-32b"
+  },
+  {
+    "Model Name & ID": "SteelSkull: L3.3 Electra R1 70Bsteelskull/l3.3-electra-r1-70b",
+    "url": "/steelskull/l3.3-electra-r1-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "SteelSkull",
+    "model_name": "L3.3 Electra R1 70B",
+    "model_id": "steelskull/l3.3-electra-r1-70b"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 3 1Bgoogle/gemma-3-1b-it",
+    "url": "/google/gemma-3-1b-it",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Google",
+    "model_name": "Gemma 3 1B",
+    "model_id": "google/gemma-3-1b-it"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba 1.6 Largeai21/jamba-1.6-large",
+    "url": "/ai21/jamba-1.6-large",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba 1.6 Large",
+    "model_id": "ai21/jamba-1.6-large"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba Mini 1.6ai21/jamba-1.6-mini",
+    "url": "/ai21/jamba-1.6-mini",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba Mini 1.6",
+    "model_id": "ai21/jamba-1.6-mini"
+  },
+  {
+    "Model Name & ID": "Reka: Flash 3rekaai/reka-flash-3",
+    "url": "/rekaai/reka-flash-3",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Reka",
+    "model_name": "Flash 3",
+    "model_id": "rekaai/reka-flash-3"
+  },
+  {
+    "Model Name & ID": "TheDrummer: Anubis Pro 105B V1thedrummer/anubis-pro-105b-v1",
+    "url": "/thedrummer/anubis-pro-105b-v1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "64.000",
+    "company": "TheDrummer",
+    "model_name": "Anubis Pro 105B V1",
+    "model_id": "thedrummer/anubis-pro-105b-v1"
+  },
+  {
+    "Model Name & ID": "LatitudeGames: Wayfarer Large 70B Llama 3.3latitudegames/wayfarer-large-70b-llama-3.3",
+    "url": "/latitudegames/wayfarer-large-70b-llama-3.3",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "LatitudeGames",
+    "model_name": "Wayfarer Large 70B Llama 3.3",
+    "model_id": "latitudegames/wayfarer-large-70b-llama-3.3"
+  },
+  {
+    "Model Name & ID": "DeepSeek: DeepSeek R1 Zerodeepseek/deepseek-r1-zero",
+    "url": "/deepseek/deepseek-r1-zero",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "163.840",
+    "company": "DeepSeek",
+    "model_name": "DeepSeek R1 Zero",
+    "model_id": "deepseek/deepseek-r1-zero"
+  },
+  {
+    "Model Name & ID": "Qwen: Qwen2.5 32B Instructqwen/qwen2.5-32b-instruct",
+    "url": "/qwen/qwen2.5-32b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "Qwen",
+    "model_name": "Qwen2.5 32B Instruct",
+    "model_id": "qwen/qwen2.5-32b-instruct"
+  },
+  {
+    "Model Name & ID": "MoonshotAI: Moonlight 16B A3B Instructmoonshotai/moonlight-16b-a3b-instruct",
+    "url": "/moonshotai/moonlight-16b-a3b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "MoonshotAI",
+    "model_name": "Moonlight 16B A3B Instruct",
+    "model_id": "moonshotai/moonlight-16b-a3b-instruct"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4.5 (Preview)openai/gpt-4.5-preview",
+    "url": "/openai/gpt-4.5-preview",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4.5 (Preview)",
+    "model_id": "openai/gpt-4.5-preview"
+  },
+  {
+    "Model Name & ID": "Perplexity: R1 1776perplexity/r1-1776",
+    "url": "/perplexity/r1-1776",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Perplexity",
+    "model_name": "R1 1776",
+    "model_id": "perplexity/r1-1776"
+  },
+  {
+    "Model Name & ID": "Dolphin3.0 R1 Mistral 24Bcognitivecomputations/dolphin3.0-r1-mistral-24b",
+    "url": "/cognitivecomputations/dolphin3.0-r1-mistral-24b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Cognitivecomputations",
+    "model_name": "Dolphin3.0 R1 Mistral 24B",
+    "model_id": "cognitivecomputations/dolphin3.0-r1-mistral-24b"
+  },
+  {
+    "Model Name & ID": "Llama 3.1 Tulu 3 405Ballenai/llama-3.1-tulu-3-405b",
+    "url": "/allenai/llama-3.1-tulu-3-405b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "company": "Allenai",
+    "model_name": "Llama 3.1 Tulu 3 405B",
+    "model_id": "allenai/llama-3.1-tulu-3-405b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Llama 8Bdeepseek/deepseek-r1-distill-llama-8b",
+    "url": "/deepseek/deepseek-r1-distill-llama-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Llama 8B",
+    "model_id": "deepseek/deepseek-r1-distill-llama-8b"
+  },
+  {
+    "Model Name & ID": "DeepSeek: R1 Distill Qwen 1.5Bdeepseek/deepseek-r1-distill-qwen-1.5b",
+    "url": "/deepseek/deepseek-r1-distill-qwen-1.5b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "DeepSeek",
+    "model_name": "R1 Distill Qwen 1.5B",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-1.5b"
+  },
+  {
+    "Model Name & ID": "Liquid: LFM 7Bliquid/lfm-7b",
+    "url": "/liquid/lfm-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Liquid",
+    "model_name": "LFM 7B",
+    "model_id": "liquid/lfm-7b"
+  },
+  {
+    "Model Name & ID": "Liquid: LFM 3Bliquid/lfm-3b",
+    "url": "/liquid/lfm-3b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Liquid",
+    "model_name": "LFM 3B",
+    "model_id": "liquid/lfm-3b"
+  },
+  {
+    "Model Name & ID": "Inflatebot: Mag Mell R1 12Binflatebot/mn-mag-mell-r1",
+    "url": "/inflatebot/mn-mag-mell-r1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Inflatebot",
+    "model_name": "Mag Mell R1 12B",
+    "model_id": "inflatebot/mn-mag-mell-r1"
+  },
+  {
+    "Model Name & ID": "EVA Llama 3.33 70Beva-unit-01/eva-llama-3.33-70b",
+    "url": "/eva-unit-01/eva-llama-3.33-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "Eva Unit 01",
+    "model_name": "EVA Llama 3.33 70B",
+    "model_id": "eva-unit-01/eva-llama-3.33-70b"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 2 Vision 1212x-ai/grok-2-vision-1212",
+    "url": "/x-ai/grok-2-vision-1212",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "xAI",
+    "model_name": "Grok 2 Vision 1212",
+    "model_id": "x-ai/grok-2-vision-1212"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 2 1212x-ai/grok-2-1212",
+    "url": "/x-ai/grok-2-1212",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok 2 1212",
+    "model_id": "x-ai/grok-2-1212"
+  },
+  {
+    "Model Name & ID": "Qwen: QwQ 32B Previewqwen/qwq-32b-preview",
+    "url": "/qwen/qwq-32b-preview",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "QwQ 32B Preview",
+    "model_id": "qwen/qwq-32b-preview"
+  },
+  {
+    "Model Name & ID": "Google: Gemini Experimental 1121google/gemini-exp-1121",
+    "url": "/google/gemini-exp-1121",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "40.960",
+    "company": "Google",
+    "model_name": "Gemini Experimental 1121",
+    "model_id": "google/gemini-exp-1121"
+  },
+  {
+    "Model Name & ID": "EVA Qwen2.5 72Beva-unit-01/eva-qwen-2.5-72b",
+    "url": "/eva-unit-01/eva-qwen-2.5-72b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Eva Unit 01",
+    "model_name": "EVA Qwen2.5 72B",
+    "model_id": "eva-unit-01/eva-qwen-2.5-72b"
+  },
+  {
+    "Model Name & ID": "xAI: Grok Vision Betax-ai/grok-vision-beta",
+    "url": "/x-ai/grok-vision-beta",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "xAI",
+    "model_name": "Grok Vision Beta",
+    "model_id": "x-ai/grok-vision-beta"
+  },
+  {
+    "Model Name & ID": "Google: Gemini Experimental 1114google/gemini-exp-1114",
+    "url": "/google/gemini-exp-1114",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "40.960",
+    "company": "Google",
+    "model_name": "Gemini Experimental 1114",
+    "model_id": "google/gemini-exp-1114"
+  },
+  {
+    "Model Name & ID": "Infermatic: Mistral Nemo Inferor 12Binfermatic/mn-inferor-12b",
+    "url": "/infermatic/mn-inferor-12b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Infermatic",
+    "model_name": "Mistral Nemo Inferor 12B",
+    "model_id": "infermatic/mn-inferor-12b"
+  },
+  {
+    "Model Name & ID": "EVA Qwen2.5 32Beva-unit-01/eva-qwen-2.5-32b",
+    "url": "/eva-unit-01/eva-qwen-2.5-32b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Eva Unit 01",
+    "model_name": "EVA Qwen2.5 32B",
+    "model_id": "eva-unit-01/eva-qwen-2.5-32b"
+  },
+  {
+    "Model Name & ID": "NeverSleep: Lumimaid v0.2 70Bneversleep/llama-3.1-lumimaid-70b",
+    "url": "/neversleep/llama-3.1-lumimaid-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "NeverSleep",
+    "model_name": "Lumimaid v0.2 70B",
+    "model_id": "neversleep/llama-3.1-lumimaid-70b"
+  },
+  {
+    "Model Name & ID": "xAI: Grok Betax-ai/grok-beta",
+    "url": "/x-ai/grok-beta",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "xAI",
+    "model_name": "Grok Beta",
+    "model_id": "x-ai/grok-beta"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 2 minix-ai/grok-2-mini",
+    "url": "/x-ai/grok-2-mini",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "xAI",
+    "model_name": "Grok 2 mini",
+    "model_id": "x-ai/grok-2-mini"
+  },
+  {
+    "Model Name & ID": "xAI: Grok 2x-ai/grok-2",
+    "url": "/x-ai/grok-2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "xAI",
+    "model_name": "Grok 2",
+    "model_id": "x-ai/grok-2"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 1.5 Flash 8Bgoogle/gemini-flash-1.5-8b",
+    "url": "/google/gemini-flash-1.5-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Google",
+    "model_name": "Gemini 1.5 Flash 8B",
+    "model_id": "google/gemini-flash-1.5-8b"
+  },
+  {
+    "Model Name & ID": "EVA Qwen2.5 14Beva-unit-01/eva-qwen-2.5-14b",
+    "url": "/eva-unit-01/eva-qwen-2.5-14b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Eva Unit 01",
+    "model_name": "EVA Qwen2.5 14B",
+    "model_id": "eva-unit-01/eva-qwen-2.5-14b"
+  },
+  {
+    "Model Name & ID": "Liquid: LFM 40B MoEliquid/lfm-40b",
+    "url": "/liquid/lfm-40b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Liquid",
+    "model_name": "LFM 40B MoE",
+    "model_id": "liquid/lfm-40b"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1-previewopenai/o1-preview",
+    "url": "/openai/o1-preview",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "o1-preview",
+    "model_id": "openai/o1-preview"
+  },
+  {
+    "Model Name & ID": "OpenAI: o1-preview (2024-09-12)openai/o1-preview-2024-09-12",
+    "url": "/openai/o1-preview-2024-09-12",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "o1-preview (2024-09-12)",
+    "model_id": "openai/o1-preview-2024-09-12"
+  },
+  {
+    "Model Name & ID": "Reflection 70Bmattshumer/reflection-70b",
+    "url": "/mattshumer/reflection-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "131.072",
+    "company": "Mattshumer",
+    "model_name": "Reflection 70B",
+    "model_id": "mattshumer/reflection-70b"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 1.5 Flash Experimentalgoogle/gemini-flash-1.5-exp",
+    "url": "/google/gemini-flash-1.5-exp",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Google",
+    "model_name": "Gemini 1.5 Flash Experimental",
+    "model_id": "google/gemini-flash-1.5-exp"
+  },
+  {
+    "Model Name & ID": "Lynn: Llama 3 Soliloquy 7B v3 32Klynn/soliloquy-v3",
+    "url": "/lynn/soliloquy-v3",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Lynn",
+    "model_name": "Llama 3 Soliloquy 7B v3 32K",
+    "model_id": "lynn/soliloquy-v3"
+  },
+  {
+    "Model Name & ID": "Yi 1.5 34B Chat01-ai/yi-1.5-34b-chat",
+    "url": "/01-ai/yi-1.5-34b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "01 Ai",
+    "model_name": "Yi 1.5 34B Chat",
+    "model_id": "01-ai/yi-1.5-34b-chat"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba 1.5 Miniai21/jamba-1-5-mini",
+    "url": "/ai21/jamba-1-5-mini",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba 1.5 Mini",
+    "model_id": "ai21/jamba-1-5-mini"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba 1.5 Largeai21/jamba-1-5-large",
+    "url": "/ai21/jamba-1-5-large",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba 1.5 Large",
+    "model_id": "ai21/jamba-1-5-large"
+  },
+  {
+    "Model Name & ID": "Aetherwiing: Starcannon 12Baetherwiing/mn-starcannon-12b",
+    "url": "/aetherwiing/mn-starcannon-12b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "12.000",
+    "company": "Aetherwiing",
+    "model_name": "Starcannon 12B",
+    "model_id": "aetherwiing/mn-starcannon-12b"
+  },
+  {
+    "Model Name & ID": "Mistral Nemo 12B Celestenothingiisreal/mn-celeste-12b",
+    "url": "/nothingiisreal/mn-celeste-12b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Nothingiisreal",
+    "model_name": "Mistral Nemo 12B Celeste",
+    "model_id": "nothingiisreal/mn-celeste-12b"
+  },
+  {
+    "Model Name & ID": "01.AI: Yi Large Turbo01-ai/yi-large-turbo",
+    "url": "/01-ai/yi-large-turbo",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "01.AI",
+    "model_name": "Yi Large Turbo",
+    "model_id": "01-ai/yi-large-turbo"
+  },
+  {
+    "Model Name & ID": "01.AI: Yi Large FC01-ai/yi-large-fc",
+    "url": "/01-ai/yi-large-fc",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "01.AI",
+    "model_name": "Yi Large FC",
+    "model_id": "01-ai/yi-large-fc"
+  },
+  {
+    "Model Name & ID": "01.AI: Yi Vision01-ai/yi-vision",
+    "url": "/01-ai/yi-vision",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "01.AI",
+    "model_name": "Yi Vision",
+    "model_id": "01-ai/yi-vision"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama 3.1 Sonar 8B Onlineperplexity/llama-3.1-sonar-small-128k-online",
+    "url": "/perplexity/llama-3.1-sonar-small-128k-online",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "127.072",
+    "company": "Perplexity",
+    "model_name": "Llama 3.1 Sonar 8B Online",
+    "model_id": "perplexity/llama-3.1-sonar-small-128k-online"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama 3.1 Sonar 70B Onlineperplexity/llama-3.1-sonar-large-128k-online",
+    "url": "/perplexity/llama-3.1-sonar-large-128k-online",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "127.072",
+    "company": "Perplexity",
+    "model_name": "Llama 3.1 Sonar 70B Online",
+    "model_id": "perplexity/llama-3.1-sonar-large-128k-online"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 1.5 Pro Experimentalgoogle/gemini-pro-1.5-exp",
+    "url": "/google/gemini-pro-1.5-exp",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Google",
+    "model_name": "Gemini 1.5 Pro Experimental",
+    "model_id": "google/gemini-pro-1.5-exp"
+  },
+  {
+    "Model Name & ID": "Dolphin Llama 3 70B 🐬cognitivecomputations/dolphin-llama-3-70b",
+    "url": "/cognitivecomputations/dolphin-llama-3-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Cognitivecomputations",
+    "model_name": "Dolphin Llama 3 70B 🐬",
+    "model_id": "cognitivecomputations/dolphin-llama-3-70b"
+  },
+  {
+    "Model Name & ID": "Mistral: Codestral Mambamistralai/codestral-mamba",
+    "url": "/mistralai/codestral-mamba",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "Mistral",
+    "model_name": "Codestral Mamba",
+    "model_id": "mistralai/codestral-mamba"
+  },
+  {
+    "Model Name & ID": "Qwen 2 7B Instructqwen/qwen-2-7b-instruct",
+    "url": "/qwen/qwen-2-7b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 2 7B Instruct",
+    "model_id": "qwen/qwen-2-7b-instruct"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Theta 8Bnousresearch/hermes-2-theta-llama-3-8b",
+    "url": "/nousresearch/hermes-2-theta-llama-3-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "Nous",
+    "model_name": "Hermes 2 Theta 8B",
+    "model_id": "nousresearch/hermes-2-theta-llama-3-8b"
+  },
+  {
+    "Model Name & ID": "Magnum 72Balpindale/magnum-72b",
+    "url": "/alpindale/magnum-72b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "Alpindale",
+    "model_name": "Magnum 72B",
+    "model_id": "alpindale/magnum-72b"
+  },
+  {
+    "Model Name & ID": "Sao10K: Llama 3 Stheno 8B v3.3 32Ksao10k/l3-stheno-8b",
+    "url": "/sao10k/l3-stheno-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Sao10K",
+    "model_name": "Llama 3 Stheno 8B v3.3 32K",
+    "model_id": "sao10k/l3-stheno-8b"
+  },
+  {
+    "Model Name & ID": "01.AI: Yi Large01-ai/yi-large",
+    "url": "/01-ai/yi-large",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "01.AI",
+    "model_name": "Yi Large",
+    "model_id": "01-ai/yi-large"
+  },
+  {
+    "Model Name & ID": "AI21: Jamba Instructai21/jamba-instruct",
+    "url": "/ai21/jamba-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "256.000",
+    "company": "AI21",
+    "model_name": "Jamba Instruct",
+    "model_id": "ai21/jamba-instruct"
+  },
+  {
+    "Model Name & ID": "NVIDIA: Nemotron-4 340B Instructnvidia/nemotron-4-340b-instruct",
+    "url": "/nvidia/nemotron-4-340b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "NVIDIA",
+    "model_name": "Nemotron-4 340B Instruct",
+    "model_id": "nvidia/nemotron-4-340b-instruct"
+  },
+  {
+    "Model Name & ID": "Microsoft: Phi-3 Medium 4K Instructmicrosoft/phi-3-medium-4k-instruct",
+    "url": "/microsoft/phi-3-medium-4k-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.000",
+    "company": "Microsoft",
+    "model_name": "Phi-3 Medium 4K Instruct",
+    "model_id": "microsoft/phi-3-medium-4k-instruct"
+  },
+  {
+    "Model Name & ID": "StarCoder2 15B Instructbigcode/starcoder2-15b-instruct",
+    "url": "/bigcode/starcoder2-15b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.384",
+    "company": "Bigcode",
+    "model_name": "StarCoder2 15B Instruct",
+    "model_id": "bigcode/starcoder2-15b-instruct"
+  },
+  {
+    "Model Name & ID": "Dolphin 2.9.2 Mixtral 8x22B 🐬cognitivecomputations/dolphin-mixtral-8x22b",
+    "url": "/cognitivecomputations/dolphin-mixtral-8x22b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "65.536",
+    "company": "Cognitivecomputations",
+    "model_name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
+    "model_id": "cognitivecomputations/dolphin-mixtral-8x22b"
+  },
+  {
+    "Model Name & ID": "Qwen 2 72B Instructqwen/qwen-2-72b-instruct",
+    "url": "/qwen/qwen-2-72b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 2 72B Instruct",
+    "model_id": "qwen/qwen-2-72b-instruct"
+  },
+  {
+    "Model Name & ID": "OpenChat 3.6 8Bopenchat/openchat-8b",
+    "url": "/openchat/openchat-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Openchat",
+    "model_name": "OpenChat 3.6 8B",
+    "model_id": "openchat/openchat-8b"
+  },
+  {
+    "Model Name & ID": "NeverSleep: Llama 3 Lumimaid 70Bneversleep/llama-3-lumimaid-70b",
+    "url": "/neversleep/llama-3-lumimaid-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "NeverSleep",
+    "model_name": "Llama 3 Lumimaid 70B",
+    "model_id": "neversleep/llama-3-lumimaid-70b"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama3 Sonar 70B Onlineperplexity/llama-3-sonar-large-32k-online",
+    "url": "/perplexity/llama-3-sonar-large-32k-online",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "28.000",
+    "company": "Perplexity",
+    "model_name": "Llama3 Sonar 70B Online",
+    "model_id": "perplexity/llama-3-sonar-large-32k-online"
+  },
+  {
+    "Model Name & ID": "DeepSeek V2.5deepseek/deepseek-chat-v2.5",
+    "url": "/deepseek/deepseek-chat-v2.5",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Deepseek",
+    "model_name": "DeepSeek V2.5",
+    "model_id": "deepseek/deepseek-chat-v2.5"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama3 Sonar 8Bperplexity/llama-3-sonar-small-32k-chat",
+    "url": "/perplexity/llama-3-sonar-small-32k-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Perplexity",
+    "model_name": "Llama3 Sonar 8B",
+    "model_id": "perplexity/llama-3-sonar-small-32k-chat"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama3 Sonar 8B Onlineperplexity/llama-3-sonar-small-32k-online",
+    "url": "/perplexity/llama-3-sonar-small-32k-online",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "28.000",
+    "company": "Perplexity",
+    "model_name": "Llama3 Sonar 8B Online",
+    "model_id": "perplexity/llama-3-sonar-small-32k-online"
+  },
+  {
+    "Model Name & ID": "Perplexity: Llama3 Sonar 70Bperplexity/llama-3-sonar-large-32k-chat",
+    "url": "/perplexity/llama-3-sonar-large-32k-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Perplexity",
+    "model_name": "Llama3 Sonar 70B",
+    "model_id": "perplexity/llama-3-sonar-large-32k-chat"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 1.5 Flashgoogle/gemini-flash-1.5",
+    "url": "/google/gemini-flash-1.5",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "1.000.000",
+    "company": "Google",
+    "model_name": "Gemini 1.5 Flash",
+    "model_id": "google/gemini-flash-1.5"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3 8B (Base)meta-llama/llama-3-8b",
+    "url": "/meta-llama/llama-3-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "Llama 3 8B (Base)",
+    "model_id": "meta-llama/llama-3-8b"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 3 70B (Base)meta-llama/llama-3-70b",
+    "url": "/meta-llama/llama-3-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "Llama 3 70B (Base)",
+    "model_id": "meta-llama/llama-3-70b"
+  },
+  {
+    "Model Name & ID": "LLaVA v1.6 34Bliuhaotian/llava-yi-34b",
+    "url": "/liuhaotian/llava-yi-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Liuhaotian",
+    "model_name": "LLaVA v1.6 34B",
+    "model_id": "liuhaotian/llava-yi-34b"
+  },
+  {
+    "Model Name & ID": "OLMo 7B Instructallenai/olmo-7b-instruct",
+    "url": "/allenai/olmo-7b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.048",
+    "company": "Allenai",
+    "model_name": "OLMo 7B Instruct",
+    "model_id": "allenai/olmo-7b-instruct"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 110B Chatqwen/qwen-110b-chat",
+    "url": "/qwen/qwen-110b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 110B Chat",
+    "model_id": "qwen/qwen-110b-chat"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 72B Chatqwen/qwen-72b-chat",
+    "url": "/qwen/qwen-72b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 72B Chat",
+    "model_id": "qwen/qwen-72b-chat"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 32B Chatqwen/qwen-32b-chat",
+    "url": "/qwen/qwen-32b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 32B Chat",
+    "model_id": "qwen/qwen-32b-chat"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 14B Chatqwen/qwen-14b-chat",
+    "url": "/qwen/qwen-14b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 14B Chat",
+    "model_id": "qwen/qwen-14b-chat"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 7B Chatqwen/qwen-7b-chat",
+    "url": "/qwen/qwen-7b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 7B Chat",
+    "model_id": "qwen/qwen-7b-chat"
+  },
+  {
+    "Model Name & ID": "Qwen 1.5 4B Chatqwen/qwen-4b-chat",
+    "url": "/qwen/qwen-4b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Qwen",
+    "model_name": "Qwen 1.5 4B Chat",
+    "model_id": "qwen/qwen-4b-chat"
+  },
+  {
+    "Model Name & ID": "NeverSleep: Llama 3 Lumimaid 8Bneversleep/llama-3-lumimaid-8b",
+    "url": "/neversleep/llama-3-lumimaid-8b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "24.576",
+    "company": "NeverSleep",
+    "model_name": "Llama 3 Lumimaid 8B",
+    "model_id": "neversleep/llama-3-lumimaid-8b"
+  },
+  {
+    "Model Name & ID": "Snowflake: Arctic Instructsnowflake/snowflake-arctic-instruct",
+    "url": "/snowflake/snowflake-arctic-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Snowflake",
+    "model_name": "Arctic Instruct",
+    "model_id": "snowflake/snowflake-arctic-instruct"
+  },
+  {
+    "Model Name & ID": "Fireworks: FireLLaVA 13Bfireworks/firellava-13b",
+    "url": "/fireworks/firellava-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Fireworks",
+    "model_name": "FireLLaVA 13B",
+    "model_id": "fireworks/firellava-13b"
+  },
+  {
+    "Model Name & ID": "Lynn: Llama 3 Soliloquy 8B v2lynn/soliloquy-l3",
+    "url": "/lynn/soliloquy-l3",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "24.576",
+    "company": "Lynn",
+    "model_name": "Llama 3 Soliloquy 8B v2",
+    "model_id": "lynn/soliloquy-l3"
+  },
+  {
+    "Model Name & ID": "Fimbulvetr 11B v2sao10k/fimbulvetr-11b-v2",
+    "url": "/sao10k/fimbulvetr-11b-v2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Sao10K",
+    "model_name": "Fimbulvetr 11B v2",
+    "model_id": "sao10k/fimbulvetr-11b-v2"
+  },
+  {
+    "Model Name & ID": "WizardLM-2 7Bmicrosoft/wizardlm-2-7b",
+    "url": "/microsoft/wizardlm-2-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Microsoft",
+    "model_name": "WizardLM-2 7B",
+    "model_id": "microsoft/wizardlm-2-7b"
+  },
+  {
+    "Model Name & ID": "Zephyr 141B-A35Bhuggingfaceh4/zephyr-orpo-141b-a35b",
+    "url": "/huggingfaceh4/zephyr-orpo-141b-a35b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "65.536",
+    "company": "Huggingfaceh4",
+    "model_name": "Zephyr 141B-A35B",
+    "model_id": "huggingfaceh4/zephyr-orpo-141b-a35b"
+  },
+  {
+    "Model Name & ID": "Mistral: Mixtral 8x22B (base)mistralai/mixtral-8x22b",
+    "url": "/mistralai/mixtral-8x22b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "65.536",
+    "company": "Mistral",
+    "model_name": "Mixtral 8x22B (base)",
+    "model_id": "mistralai/mixtral-8x22b"
+  },
+  {
+    "Model Name & ID": "Google: Gemini 1.5 Progoogle/gemini-pro-1.5",
+    "url": "/google/gemini-pro-1.5",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.000.000",
+    "company": "Google",
+    "model_name": "Gemini 1.5 Pro",
+    "model_id": "google/gemini-pro-1.5"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R+cohere/command-r-plus",
+    "url": "/cohere/command-r-plus",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R+",
+    "model_id": "cohere/command-r-plus"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R+ (04-2024)cohere/command-r-plus-04-2024",
+    "url": "/cohere/command-r-plus-04-2024",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R+ (04-2024)",
+    "model_id": "cohere/command-r-plus-04-2024"
+  },
+  {
+    "Model Name & ID": "Databricks: DBRX 132B Instructdatabricks/dbrx-instruct",
+    "url": "/databricks/dbrx-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Databricks",
+    "model_name": "DBRX 132B Instruct",
+    "model_id": "databricks/dbrx-instruct"
+  },
+  {
+    "Model Name & ID": "Midnight Rose 70Bsophosympatheia/midnight-rose-70b",
+    "url": "/sophosympatheia/midnight-rose-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Sophosympatheia",
+    "model_name": "Midnight Rose 70B",
+    "model_id": "sophosympatheia/midnight-rose-70b"
+  },
+  {
+    "Model Name & ID": "Cohere: Commandcohere/command",
+    "url": "/cohere/command",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Cohere",
+    "model_name": "Command",
+    "model_id": "cohere/command"
+  },
+  {
+    "Model Name & ID": "Cohere: Command Rcohere/command-r",
+    "url": "/cohere/command-r",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R",
+    "model_id": "cohere/command-r"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude 3 Sonnetanthropic/claude-3-sonnet",
+    "url": "/anthropic/claude-3-sonnet",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude 3 Sonnet",
+    "model_id": "anthropic/claude-3-sonnet"
+  },
+  {
+    "Model Name & ID": "Cohere: Command R (03-2024)cohere/command-r-03-2024",
+    "url": "/cohere/command-r-03-2024",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "Cohere",
+    "model_name": "Command R (03-2024)",
+    "model_id": "cohere/command-r-03-2024"
+  },
+  {
+    "Model Name & ID": "Google: Gemma 7Bgoogle/gemma-7b-it",
+    "url": "/google/gemma-7b-it",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Google",
+    "model_name": "Gemma 7B",
+    "model_id": "google/gemma-7b-it"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Mistral 7B DPOnousresearch/nous-hermes-2-mistral-7b-dpo",
+    "url": "/nousresearch/nous-hermes-2-mistral-7b-dpo",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Nous",
+    "model_name": "Hermes 2 Mistral 7B DPO",
+    "model_id": "nousresearch/nous-hermes-2-mistral-7b-dpo"
+  },
+  {
+    "Model Name & ID": "Meta: CodeLlama 70B Instructmeta-llama/codellama-70b-instruct",
+    "url": "/meta-llama/codellama-70b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.048",
+    "company": "Meta",
+    "model_name": "CodeLlama 70B Instruct",
+    "model_id": "meta-llama/codellama-70b-instruct"
+  },
+  {
+    "Model Name & ID": "RWKV v5: Eagle 7Brecursal/eagle-7b",
+    "url": "/recursal/eagle-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "10.000",
+    "company": "RWKV v5",
+    "model_name": "Eagle 7B",
+    "model_id": "recursal/eagle-7b"
+  },
+  {
+    "Model Name & ID": "Yi 34B 200K01-ai/yi-34b-200k",
+    "url": "/01-ai/yi-34b-200k",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "01 Ai",
+    "model_name": "Yi 34B 200K",
+    "model_id": "01-ai/yi-34b-200k"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Mixtral 8x7B DPOnousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "url": "/nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Nous",
+    "model_name": "Hermes 2 Mixtral 8x7B DPO",
+    "model_id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Mixtral 8x7B SFTnousresearch/nous-hermes-2-mixtral-8x7b-sft",
+    "url": "/nousresearch/nous-hermes-2-mixtral-8x7b-sft",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Nous",
+    "model_name": "Hermes 2 Mixtral 8x7B SFT",
+    "model_id": "nousresearch/nous-hermes-2-mixtral-8x7b-sft"
+  },
+  {
+    "Model Name & ID": "Mistral Mediummistralai/mistral-medium",
+    "url": "/mistralai/mistral-medium",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.000",
+    "company": "Mistralai",
+    "model_name": "Mistral Medium",
+    "model_id": "mistralai/mistral-medium"
+  },
+  {
+    "Model Name & ID": "Chronos Hermes 13B v2austism/chronos-hermes-13b",
+    "url": "/austism/chronos-hermes-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Austism",
+    "model_name": "Chronos Hermes 13B v2",
+    "model_id": "austism/chronos-hermes-13b"
+  },
+  {
+    "Model Name & ID": "Bagel 34B v0.2jondurbin/bagel-34b",
+    "url": "/jondurbin/bagel-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "Jondurbin",
+    "model_name": "Bagel 34B v0.2",
+    "model_id": "jondurbin/bagel-34b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Yi 34Bnousresearch/nous-hermes-yi-34b",
+    "url": "/nousresearch/nous-hermes-yi-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Nous",
+    "model_name": "Hermes 2 Yi 34B",
+    "model_id": "nousresearch/nous-hermes-yi-34b"
+  },
+  {
+    "Model Name & ID": "Noromaid Mixtral 8x7B Instructneversleep/noromaid-mixtral-8x7b-instruct",
+    "url": "/neversleep/noromaid-mixtral-8x7b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.000",
+    "company": "Neversleep",
+    "model_name": "Noromaid Mixtral 8x7B Instruct",
+    "model_id": "neversleep/noromaid-mixtral-8x7b-instruct"
+  },
+  {
+    "Model Name & ID": "Dolphin 2.6 Mixtral 8x7B 🐬cognitivecomputations/dolphin-mixtral-8x7b",
+    "url": "/cognitivecomputations/dolphin-mixtral-8x7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Cognitivecomputations",
+    "model_name": "Dolphin 2.6 Mixtral 8x7B 🐬",
+    "model_id": "cognitivecomputations/dolphin-mixtral-8x7b"
+  },
+  {
+    "Model Name & ID": "RWKV v5 3B AI Townrecursal/rwkv-5-3b-ai-town",
+    "url": "/recursal/rwkv-5-3b-ai-town",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "10.000",
+    "company": "Recursal",
+    "model_name": "RWKV v5 3B AI Town",
+    "model_id": "recursal/rwkv-5-3b-ai-town"
+  },
+  {
+    "Model Name & ID": "RWKV v5 World 3Brwkv/rwkv-5-world-3b",
+    "url": "/rwkv/rwkv-5-world-3b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "10.000",
+    "company": "Rwkv",
+    "model_name": "RWKV v5 World 3B",
+    "model_id": "rwkv/rwkv-5-world-3b"
+  },
+  {
+    "Model Name & ID": "StripedHyena Nous 7Btogethercomputer/stripedhyena-nous-7b",
+    "url": "/togethercomputer/stripedhyena-nous-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Togethercomputer",
+    "model_name": "StripedHyena Nous 7B",
+    "model_id": "togethercomputer/stripedhyena-nous-7b"
+  },
+  {
+    "Model Name & ID": "StripedHyena Hessian 7B (base)togethercomputer/stripedhyena-hessian-7b",
+    "url": "/togethercomputer/stripedhyena-hessian-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Togethercomputer",
+    "model_name": "StripedHyena Hessian 7B (base)",
+    "model_id": "togethercomputer/stripedhyena-hessian-7b"
+  },
+  {
+    "Model Name & ID": "Psyfighter v2 13Bkoboldai/psyfighter-13b-2",
+    "url": "/koboldai/psyfighter-13b-2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Koboldai",
+    "model_name": "Psyfighter v2 13B",
+    "model_id": "koboldai/psyfighter-13b-2"
+  },
+  {
+    "Model Name & ID": "Yi 34B (base)01-ai/yi-34b",
+    "url": "/01-ai/yi-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "01 Ai",
+    "model_name": "Yi 34B (base)",
+    "model_id": "01-ai/yi-34b"
+  },
+  {
+    "Model Name & ID": "Yi 34B Chat01-ai/yi-34b-chat",
+    "url": "/01-ai/yi-34b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "01 Ai",
+    "model_name": "Yi 34B Chat",
+    "model_id": "01-ai/yi-34b-chat"
+  },
+  {
+    "Model Name & ID": "Yi 6B (base)01-ai/yi-6b",
+    "url": "/01-ai/yi-6b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "01 Ai",
+    "model_name": "Yi 6B (base)",
+    "model_id": "01-ai/yi-6b"
+  },
+  {
+    "Model Name & ID": "MythoMist 7Bgryphe/mythomist-7b",
+    "url": "/gryphe/mythomist-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.768",
+    "company": "Gryphe",
+    "model_name": "MythoMist 7B",
+    "model_id": "gryphe/mythomist-7b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 2 Vision 7B (alpha)nousresearch/nous-hermes-2-vision-7b",
+    "url": "/nousresearch/nous-hermes-2-vision-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Nous",
+    "model_name": "Hermes 2 Vision 7B (alpha)",
+    "model_id": "nousresearch/nous-hermes-2-vision-7b"
+  },
+  {
+    "Model Name & ID": "Cinematika 7B (alpha)openrouter/cinematika-7b",
+    "url": "/openrouter/cinematika-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.000",
+    "company": "Openrouter",
+    "model_name": "Cinematika 7B (alpha)",
+    "model_id": "openrouter/cinematika-7b"
+  },
+  {
+    "Model Name & ID": "Nous: Capybara 7Bnousresearch/nous-capybara-7b",
+    "url": "/nousresearch/nous-capybara-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Nous",
+    "model_name": "Capybara 7B",
+    "model_id": "nousresearch/nous-capybara-7b"
+  },
+  {
+    "Model Name & ID": "Psyfighter 13Bjebcarter/psyfighter-13b",
+    "url": "/jebcarter/psyfighter-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Jebcarter",
+    "model_name": "Psyfighter 13B",
+    "model_id": "jebcarter/psyfighter-13b"
+  },
+  {
+    "Model Name & ID": "OpenChat 3.5 7Bopenchat/openchat-7b",
+    "url": "/openchat/openchat-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Openchat",
+    "model_name": "OpenChat 3.5 7B",
+    "model_id": "openchat/openchat-7b"
+  },
+  {
+    "Model Name & ID": "Neural Chat 7B v3.1intel/neural-chat-7b",
+    "url": "/intel/neural-chat-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Intel",
+    "model_name": "Neural Chat 7B v3.1",
+    "model_id": "intel/neural-chat-7b"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude v2.1anthropic/claude-2.1",
+    "url": "/anthropic/claude-2.1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude v2.1",
+    "model_id": "anthropic/claude-2.1"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude v2anthropic/claude-2",
+    "url": "/anthropic/claude-2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "Anthropic",
+    "model_name": "Claude v2",
+    "model_id": "anthropic/claude-2"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Instant v1.1anthropic/claude-instant-1.1",
+    "url": "/anthropic/claude-instant-1.1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude Instant v1.1",
+    "model_id": "anthropic/claude-instant-1.1"
+  },
+  {
+    "Model Name & ID": "OpenHermes 2.5 Mistral 7Bteknium/openhermes-2.5-mistral-7b",
+    "url": "/teknium/openhermes-2.5-mistral-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Teknium",
+    "model_name": "OpenHermes 2.5 Mistral 7B",
+    "model_id": "teknium/openhermes-2.5-mistral-7b"
+  },
+  {
+    "Model Name & ID": "LLaVA 13Bliuhaotian/llava-13b",
+    "url": "/liuhaotian/llava-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.048",
+    "company": "Liuhaotian",
+    "model_name": "LLaVA 13B",
+    "model_id": "liuhaotian/llava-13b"
+  },
+  {
+    "Model Name & ID": "Nous: Capybara 34Bnousresearch/nous-capybara-34b",
+    "url": "/nousresearch/nous-capybara-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "200.000",
+    "company": "Nous",
+    "model_name": "Capybara 34B",
+    "model_id": "nousresearch/nous-capybara-34b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 Visionopenai/gpt-4-vision-preview",
+    "url": "/openai/gpt-4-vision-preview",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "128.000",
+    "company": "OpenAI",
+    "model_name": "GPT-4 Vision",
+    "model_id": "openai/gpt-4-vision-preview"
+  },
+  {
+    "Model Name & ID": "lzlv 70Blizpreciatior/lzlv-70b-fp16-hf",
+    "url": "/lizpreciatior/lzlv-70b-fp16-hf",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Lizpreciatior",
+    "model_name": "lzlv 70B",
+    "model_id": "lizpreciatior/lzlv-70b-fp16-hf"
+  },
+  {
+    "Model Name & ID": "Toppy M 7Bundi95/toppy-m-7b",
+    "url": "/undi95/toppy-m-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Undi95",
+    "model_name": "Toppy M 7B",
+    "model_id": "undi95/toppy-m-7b"
+  },
+  {
+    "Model Name & ID": "Auto Routeropenrouter/auto",
+    "url": "/openrouter/auto",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "2.000.000",
+    "company": "Openrouter",
+    "model_name": "Auto Router",
+    "model_id": "openrouter/auto"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo 16k (older v1106)openai/gpt-3.5-turbo-1106",
+    "url": "/openai/gpt-3.5-turbo-1106",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.385",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo 16k (older v1106)",
+    "model_id": "openai/gpt-3.5-turbo-1106"
+  },
+  {
+    "Model Name & ID": "Google: PaLM 2 Chat 32kgoogle/palm-2-chat-bison-32k",
+    "url": "/google/palm-2-chat-bison-32k",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.760",
+    "company": "Google",
+    "model_name": "PaLM 2 Chat 32k",
+    "model_id": "google/palm-2-chat-bison-32k"
+  },
+  {
+    "Model Name & ID": "Google: PaLM 2 Code Chat 32kgoogle/palm-2-codechat-bison-32k",
+    "url": "/google/palm-2-codechat-bison-32k",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.760",
+    "company": "Google",
+    "model_name": "PaLM 2 Code Chat 32k",
+    "model_id": "google/palm-2-codechat-bison-32k"
+  },
+  {
+    "Model Name & ID": "OpenHermes 2 Mistral 7Bteknium/openhermes-2-mistral-7b",
+    "url": "/teknium/openhermes-2-mistral-7b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Teknium",
+    "model_name": "OpenHermes 2 Mistral 7B",
+    "model_id": "teknium/openhermes-2-mistral-7b"
+  },
+  {
+    "Model Name & ID": "Mistral OpenOrca 7Bopen-orca/mistral-7b-openorca",
+    "url": "/open-orca/mistral-7b-openorca",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Open Orca",
+    "model_name": "Mistral OpenOrca 7B",
+    "model_id": "open-orca/mistral-7b-openorca"
+  },
+  {
+    "Model Name & ID": "Airoboros 70Bjondurbin/airoboros-l2-70b",
+    "url": "/jondurbin/airoboros-l2-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Jondurbin",
+    "model_name": "Airoboros 70B",
+    "model_id": "jondurbin/airoboros-l2-70b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 70Bnousresearch/nous-hermes-llama2-70b",
+    "url": "/nousresearch/nous-hermes-llama2-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Nous",
+    "model_name": "Hermes 70B",
+    "model_id": "nousresearch/nous-hermes-llama2-70b"
+  },
+  {
+    "Model Name & ID": "Xwin 70Bxwin-lm/xwin-lm-70b",
+    "url": "/xwin-lm/xwin-lm-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Xwin Lm",
+    "model_name": "Xwin 70B",
+    "model_id": "xwin-lm/xwin-lm-70b"
+  },
+  {
+    "Model Name & ID": "Synthia 70Bmigtissera/synthia-70b",
+    "url": "/migtissera/synthia-70b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Migtissera",
+    "model_name": "Synthia 70B",
+    "model_id": "migtissera/synthia-70b"
+  },
+  {
+    "Model Name & ID": "Pygmalion: Mythalion 13Bpygmalionai/mythalion-13b",
+    "url": "/pygmalionai/mythalion-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Pygmalion",
+    "model_name": "Mythalion 13B",
+    "model_id": "pygmalionai/mythalion-13b"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 32kopenai/gpt-4-32k",
+    "url": "/openai/gpt-4-32k",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.767",
+    "company": "OpenAI",
+    "model_name": "GPT-4 32k",
+    "model_id": "openai/gpt-4-32k"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-4 32k (older v0314)openai/gpt-4-32k-0314",
+    "url": "/openai/gpt-4-32k-0314",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "32.767",
+    "company": "OpenAI",
+    "model_name": "GPT-4 32k (older v0314)",
+    "model_id": "openai/gpt-4-32k-0314"
+  },
+  {
+    "Model Name & ID": "Meta: CodeLlama 34B Instructmeta-llama/codellama-34b-instruct",
+    "url": "/meta-llama/codellama-34b-instruct",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "8.192",
+    "company": "Meta",
+    "model_name": "CodeLlama 34B Instruct",
+    "model_id": "meta-llama/codellama-34b-instruct"
+  },
+  {
+    "Model Name & ID": "Phind: CodeLlama 34B v2phind/phind-codellama-34b",
+    "url": "/phind/phind-codellama-34b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Phind",
+    "model_name": "CodeLlama 34B v2",
+    "model_id": "phind/phind-codellama-34b"
+  },
+  {
+    "Model Name & ID": "Nous: Hermes 13Bnousresearch/nous-hermes-llama2-13b",
+    "url": "/nousresearch/nous-hermes-llama2-13b",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Nous",
+    "model_name": "Hermes 13B",
+    "model_id": "nousresearch/nous-hermes-llama2-13b"
+  },
+  {
+    "Model Name & ID": "Hugging Face: Zephyr 7Bhuggingfaceh4/zephyr-7b-beta",
+    "url": "/huggingfaceh4/zephyr-7b-beta",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Hugging Face",
+    "model_name": "Zephyr 7B",
+    "model_id": "huggingfaceh4/zephyr-7b-beta"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude v2.0anthropic/claude-2.0",
+    "url": "/anthropic/claude-2.0",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude v2.0",
+    "model_id": "anthropic/claude-2.0"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Instant v1anthropic/claude-instant-1",
+    "url": "/anthropic/claude-instant-1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude Instant v1",
+    "model_id": "anthropic/claude-instant-1"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude v1anthropic/claude-1",
+    "url": "/anthropic/claude-1",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude v1",
+    "model_id": "anthropic/claude-1"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude v1.2anthropic/claude-1.2",
+    "url": "/anthropic/claude-1.2",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude v1.2",
+    "model_id": "anthropic/claude-1.2"
+  },
+  {
+    "Model Name & ID": "Anthropic: Claude Instant v1.0anthropic/claude-instant-1.0",
+    "url": "/anthropic/claude-instant-1.0",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "100.000",
+    "company": "Anthropic",
+    "model_name": "Claude Instant v1.0",
+    "model_id": "anthropic/claude-instant-1.0"
+  },
+  {
+    "Model Name & ID": "Google: PaLM 2 Chatgoogle/palm-2-chat-bison",
+    "url": "/google/palm-2-chat-bison",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "9.216",
+    "company": "Google",
+    "model_name": "PaLM 2 Chat",
+    "model_id": "google/palm-2-chat-bison"
+  },
+  {
+    "Model Name & ID": "Google: PaLM 2 Code Chatgoogle/palm-2-codechat-bison",
+    "url": "/google/palm-2-codechat-bison",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "7.168",
+    "company": "Google",
+    "model_name": "PaLM 2 Code Chat",
+    "model_id": "google/palm-2-codechat-bison"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 2 13B Chatmeta-llama/llama-2-13b-chat",
+    "url": "/meta-llama/llama-2-13b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Meta",
+    "model_name": "Llama 2 13B Chat",
+    "model_id": "meta-llama/llama-2-13b-chat"
+  },
+  {
+    "Model Name & ID": "Meta: Llama 2 70B Chatmeta-llama/llama-2-70b-chat",
+    "url": "/meta-llama/llama-2-70b-chat",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.096",
+    "company": "Meta",
+    "model_name": "Llama 2 70B Chat",
+    "model_id": "meta-llama/llama-2-70b-chat"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo (older v0301)openai/gpt-3.5-turbo-0301",
+    "url": "/openai/gpt-3.5-turbo-0301",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "4.095",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo (older v0301)",
+    "model_id": "openai/gpt-3.5-turbo-0301"
+  },
+  {
+    "Model Name & ID": "OpenAI: GPT-3.5 Turbo 16kopenai/gpt-3.5-turbo-0125",
+    "url": "/openai/gpt-3.5-turbo-0125",
+    "Input ($/1M tokens)": "--",
+    "Output ($/1M tokens)": "--",
+    "Context (tokens)": "16.385",
+    "company": "OpenAI",
+    "model_name": "GPT-3.5 Turbo 16k",
+    "model_id": "openai/gpt-3.5-turbo-0125"
+  }
+]
