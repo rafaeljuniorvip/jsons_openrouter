@@ -4,7 +4,7 @@ Scraper automatizado para coletar informações sobre modelos de IA disponíveis
 
 ## 📊 Dados Disponíveis
 
-O arquivo `openrouter_models.json` contém informações atualizadas sobre **553+ modelos** de **113+ empresas** diferentes, incluindo:
+O arquivo `openrouter_models.json` contém informações atualizadas sobre **554+ modelos** de **113+ empresas** diferentes, incluindo:
 
 - **Empresa/Provider** (ex: OpenAI, Anthropic, Google, Meta)
 - **Nome do Modelo** (ex: GPT-4, Claude 3.5 Sonnet)
@@ -12,6 +12,9 @@ O arquivo `openrouter_models.json` contém informações atualizadas sobre **553
 - **Preços** (input e output por 1M tokens)
 - **Tamanho do Contexto** (em tokens)
 - **URL** (link para detalhes no OpenRouter)
+- **Modalidades de Entrada** (text, image, audio, file)
+- **Modalidades de Saída** (text, image)
+- **Suporte a Tools** (function calling)
 
 ## 🚀 Como Usar os Dados
 
@@ -54,7 +57,10 @@ Cada modelo tem a seguinte estrutura:
   "Context (tokens)": "128.000",
   "company": "OpenAI",
   "model_name": "GPT-4o Mini",
-  "model_id": "openai/gpt-4o-mini"
+  "model_id": "openai/gpt-4o-mini",
+  "input_modalities": ["text", "image"],
+  "output_modalities": ["text"],
+  "supports_tools": true
 }
 ```
 
@@ -77,6 +83,26 @@ print(f"Modelos gratuitos: {len(free_models)}")
 
 # Buscar por nome
 gpt_models = [m for m in models if 'GPT' in m['model_name']]
+
+# Filtrar modelos que aceitam imagens como input
+image_input_models = [m for m in models if 'image' in m.get('input_modalities', [])]
+print(f"Modelos com input de imagem: {len(image_input_models)}")
+
+# Filtrar modelos que geram imagens
+image_output_models = [m for m in models if 'image' in m.get('output_modalities', [])]
+print(f"Modelos que geram imagens: {len(image_output_models)}")
+
+# Filtrar modelos com suporte a tools (function calling)
+tools_models = [m for m in models if m.get('supports_tools', False)]
+print(f"Modelos com suporte a tools: {len(tools_models)}")
+
+# Filtrar modelos multimodais (múltiplas modalidades de input)
+multimodal_models = [m for m in models if len(m.get('input_modalities', [])) > 1]
+print(f"Modelos multimodais: {len(multimodal_models)}")
+
+# Filtrar modelos que aceitam áudio
+audio_models = [m for m in models if 'audio' in m.get('input_modalities', [])]
+print(f"Modelos com input de áudio: {len(audio_models)}")
 ```
 
 ## 🛠️ Executar o Scraper
@@ -106,19 +132,34 @@ python3 scraper.py
 O script irá:
 1. Acessar a página de modelos do OpenRouter
 2. Aguardar o carregamento completo (JavaScript)
-3. Extrair todos os dados da tabela
-4. Gerar o arquivo `openrouter_models.json`
+3. Extrair todos os dados da tabela principal
+4. Acessar 6 URLs filtradas para identificar capacidades dos modelos:
+   - Modalidades de entrada: image, audio, file, text
+   - Modalidades de saída: image
+   - Suporte a tools (function calling)
+5. Combinar todos os dados e gerar o arquivo `openrouter_models.json`
+
+**Nota**: O processo completo leva alguns minutos devido às múltiplas requisições necessárias para coletar todas as capacidades dos modelos.
 
 ## 📈 Estatísticas
 
-- **Total de Modelos**: 553
-- **Total de Empresas**: 113
+- **Total de Modelos**: 554
+- **Total de Empresas**: 113+
 - **Top Providers**:
   - Qwen: 59 modelos
   - OpenAI: 57 modelos
   - Google: 42 modelos
   - Mistral: 33 modelos
   - Meta: 26 modelos
+
+### Capacidades dos Modelos
+
+- **Input de Imagem**: 140 modelos
+- **Input de Áudio**: 11 modelos
+- **Input de Arquivo**: 49 modelos
+- **Input de Texto**: 554 modelos (todos)
+- **Output de Imagem**: 4 modelos
+- **Suporte a Tools**: 213 modelos
 
 ## 🔄 Atualização
 

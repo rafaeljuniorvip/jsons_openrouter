@@ -105,22 +105,32 @@ def extract_company_and_model(full_name, url=None):
     return company, model_name, model_id
 
 
-def scrape_openrouter_models():
-    """Faz scraping da página de modelos do OpenRouter"""
-    url = "https://openrouter.ai/models?fmt=table"
+def scrape_openrouter_models(url="https://openrouter.ai/models?fmt=table", driver=None):
+    """
+    Faz scraping da página de modelos do OpenRouter
 
+    Args:
+        url: URL da página a ser coletada
+        driver: Driver do Selenium (se None, cria um novo)
+
+    Returns:
+        list: Lista de dicionários com dados dos modelos
+    """
     print(f"Acessando {url}...")
 
-    # Configurar Chrome headless
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--window-size=1920,1080')
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-
-    driver = webdriver.Chrome(options=chrome_options)
+    # Verificar se precisamos criar um driver
+    should_quit = False
+    if driver is None:
+        # Configurar Chrome headless
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--window-size=1920,1080')
+        chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        driver = webdriver.Chrome(options=chrome_options)
+        should_quit = True
 
     try:
         driver.get(url)
@@ -191,8 +201,8 @@ def scrape_openrouter_models():
 
                     # Extrair empresa e nome do modelo
                     if full_model_name:
-                        url = model_data.get('url')
-                        company, model_name, model_id = extract_company_and_model(full_model_name, url)
+                        url_path = model_data.get('url')
+                        company, model_name, model_id = extract_company_and_model(full_model_name, url_path)
                         model_data['company'] = company
                         model_data['model_name'] = model_name
                         model_data['model_id'] = model_id
@@ -200,6 +210,77 @@ def scrape_openrouter_models():
                     models.append(model_data)
 
         return models
+
+    finally:
+        if should_quit:
+            driver.quit()
+
+
+def scrape_all_models_with_capabilities():
+    """
+    Faz scraping de todos os modelos e suas capacidades
+
+    Returns:
+        list: Lista de modelos com informações sobre modalidades e capacidades
+    """
+    # Configurar Chrome headless (reutilizar para todas as requisições)
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+
+    driver = webdriver.Chrome(options=chrome_options)
+
+    try:
+        # 1. Coletar todos os modelos da página principal
+        print("\n=== Coletando todos os modelos ===")
+        base_url = "https://openrouter.ai/models?fmt=table"
+        all_models = scrape_openrouter_models(base_url, driver)
+
+        # Criar dicionário indexado por model_id para fácil acesso
+        models_dict = {}
+        for model in all_models:
+            model_id = model.get('model_id')
+            if model_id:
+                # Inicializar campos de capacidades
+                model['input_modalities'] = []
+                model['output_modalities'] = []
+                model['supports_tools'] = False
+                models_dict[model_id] = model
+
+        print(f"Total de modelos coletados: {len(models_dict)}")
+
+        # 2. Coletar modelos com cada capacidade e marcar
+        capabilities = [
+            ('input_modalities', 'image', 'https://openrouter.ai/models?fmt=table&input_modalities=image'),
+            ('input_modalities', 'audio', 'https://openrouter.ai/models?fmt=table&input_modalities=audio'),
+            ('input_modalities', 'file', 'https://openrouter.ai/models?fmt=table&input_modalities=file'),
+            ('input_modalities', 'text', 'https://openrouter.ai/models?fmt=table&input_modalities=text'),
+            ('output_modalities', 'image', 'https://openrouter.ai/models?fmt=table&output_modalities=image'),
+            ('supports_tools', 'tools', 'https://openrouter.ai/models?fmt=table&supported_parameters=tools'),
+        ]
+
+        for field_type, capability, url in capabilities:
+            print(f"\n=== Coletando modelos com {capability} ===")
+            filtered_models = scrape_openrouter_models(url, driver)
+
+            for model in filtered_models:
+                model_id = model.get('model_id')
+                if model_id and model_id in models_dict:
+                    if field_type == 'supports_tools':
+                        models_dict[model_id]['supports_tools'] = True
+                    else:
+                        # Adicionar modalidade se ainda não estiver na lista
+                        if capability not in models_dict[model_id][field_type]:
+                            models_dict[model_id][field_type].append(capability)
+
+            print(f"Modelos com {capability}: {len(filtered_models)}")
+
+        # Converter de volta para lista
+        return list(models_dict.values())
 
     finally:
         driver.quit()
@@ -214,10 +295,29 @@ def save_to_json(data, filename='openrouter_models.json'):
 
 def main():
     try:
-        models = scrape_openrouter_models()
+        # Coletar todos os modelos com suas capacidades
+        models = scrape_all_models_with_capabilities()
 
         if models:
-            print(f"\n{len(models)} modelos coletados!")
+            print(f"\n{'='*60}")
+            print(f"Total de modelos coletados: {len(models)}")
+
+            # Estatísticas de capacidades
+            with_image_input = sum(1 for m in models if 'image' in m.get('input_modalities', []))
+            with_audio_input = sum(1 for m in models if 'audio' in m.get('input_modalities', []))
+            with_file_input = sum(1 for m in models if 'file' in m.get('input_modalities', []))
+            with_text_input = sum(1 for m in models if 'text' in m.get('input_modalities', []))
+            with_image_output = sum(1 for m in models if 'image' in m.get('output_modalities', []))
+            with_tools = sum(1 for m in models if m.get('supports_tools', False))
+
+            print(f"\nEstatísticas de capacidades:")
+            print(f"  - Input image: {with_image_input} modelos")
+            print(f"  - Input audio: {with_audio_input} modelos")
+            print(f"  - Input file: {with_file_input} modelos")
+            print(f"  - Input text: {with_text_input} modelos")
+            print(f"  - Output image: {with_image_output} modelos")
+            print(f"  - Suporte a tools: {with_tools} modelos")
+
             print("\nPrimeiro modelo de exemplo:")
             print(json.dumps(models[0], indent=2, ensure_ascii=False))
 
